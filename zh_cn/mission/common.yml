@@ -1,0 +1,47 @@
+---
+mission_base_details: |
+    这项工作的佣金是 {{ mission_payment }} c.
+    这个任务已经分配Uplink难度等级为 {{ mission_difficulty }}。
+    {% if can_auto_accept %}
+    Uplink 等级为 {{ mission_uplink_rank_accept }} 或以上将足以自动接受。
+    {% else %}
+    该任务无法自动接受。
+    {% endif %}
+
+Details: {{ mission_base_details }}
+   
+PaymentDetail: 匿名捐助者
+
+WhoIsTheTarget: 我们现在不想透露这些。
+WhySoMuchMoney: 没什么特别的 - 只是个普通任务。
+
+OnCompleted:
+    Subject: 任务完成
+    Body: |
+        恭喜您成功了。
+        {% if mission_adjusted_payment > 0 %} 转移的剩余资金： {{ mission_adjusted_payment }}c
+        {% elif mission_payment > 0 %} 转移资金： {{ mission_payment }}c
+        {% endif %}
+        
+        感谢您为 {{ employee_name }} 工作。
+        
+        这是自动回复，请勿回复。
+
+OnNotCompleted:
+    Subject: 任务未完成
+    Body: |
+        {{ misc_string }}
+        
+        这是自动回复，请勿回复。
+
+OnFailure:
+    Subject: 任务失败
+    Body: |
+        你没能完成下面的任务：
+        {{ misc_string2 }}
+        
+        {{ misc_string }}
+        
+        将来我们会雇佣更有资格的人。
+        
+        这是自动回复，请勿回复。

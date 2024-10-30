@@ -1,0 +1,16 @@
+---
+Subject: 需要一名熟练的黑客来解救我们的黑客
+Body: |
+    我们的一名黑客不幸被逮捕。由于{[他|她]}了解我们的事情，我们希望{[他|她]}尽快被释放。请入侵全球犯罪数据库并授权{[他|她]}的释放。
+    
+    目标 : {{ person_name }}
+    
+    一旦您完成任务，请发送邮件至 {{ employer_email }}，我们将评估您是否成功。
+    
+    END
+
+WhoIsTheTarget: 一名高级 Uplink 黑客。
+WhySoMuchMoney: 该黑客知道一些敏感信息。
+HowSecure: GCD 有一个代理，并使用椭圆曲线密码。
+
+OnNotCompleted: {[他|她]}似乎尚未被释放。

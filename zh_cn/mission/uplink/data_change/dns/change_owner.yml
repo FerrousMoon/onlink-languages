@@ -1,0 +1,17 @@
+---
+Subject: 更改服务器的 DNS 记录
+Body: |
+    入侵 {{ computer_name }} ：
+    
+    目标计算机数据：
+      位置 : {{ computer_name }}
+      IP  : 未知
+    
+    访问以下 IP 的 DNS 记录并更改注册所有者。
+      IP：{{ target_ip }}
+      新所有者：{{ misc_string }}
+    
+    将完成通知发送至：
+    {{ employer_email }}
+    
+    END

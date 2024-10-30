@@ -1,0 +1,19 @@
+---
+Subject: 找到我们对手的个人电脑
+Body: |
+    此人已经躲避我们一段时间。我们希望您能提供{{ person_name }}的当前IP地址。
+    
+    我们已经确定{[他|她]}目前与{{ company_name }}签订了互联网合同。这些信息应该足够让我们找到目标。
+    
+    目标：{{ person_name }}
+    互联网服务提供商 : {{ 公司名称 }}
+    
+    完成任务后，请将我们请求的数据发送至{{ employer_email }}，我们将确定您是否成功。
+    
+    END
+
+WhoIsTheTarget: 不是您认识的人。
+WhySoMuchMoney: 我们需要确保任务完成。 
+HowSecure: 将会有一些保护措施。
+
+OnNotCompleted: 你提供的信息似乎无效。

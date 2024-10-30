@@ -1,0 +1,19 @@
+---
+Description: >
+    {% if mission_type == ChangeDNSAdmin %}
+    dns/change_admin.yml
+    {% elif mission_type == ChangeDNSTechnical %}
+    dns/change_technical.yml
+    {% elif mission_type == ChangeDNSOwner %}
+    dns/change_owner.yml
+    {% elif mission_type == ChangeDNSNS1 %}
+    dns/change_ns1.yml
+    {% elif mission_type == ChangeDNSNS2 %}
+    dns/change_ns2.yml
+    {% else %}
+    {% abort %}
+    {% endif %}
+
+WhoIsTheTarget: {{ computer_name }}
+WhySoMuchMoney: 这对我们的未来计划很重要。
+HowSecure: 您可能会遇到代理和椭圆曲线密码。

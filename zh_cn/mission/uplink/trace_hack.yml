@@ -1,0 +1,25 @@
+---
+Subject: 追踪最近闯入我们系统的一个黑客
+Body: |
+    我们的电脑系统最近遭到了黑客入侵。找到这个黑客，将他的名字发送给我们。我们会用自己的方式处理他。
+    
+    遭入侵的系统为：
+    {{ computer_name }}
+    IP : {{ computer_ip }}
+    
+    黑客攻击发生在 {{ date_short }}。
+    
+    {% if code_provided %}
+    我们已为您提供了对我们系统的三级访问权限。
+    
+    用户 : {{ misc_string }}  
+    代码 : {{ misc_string2 }}  
+    {% endif %}
+    
+    完成后，请将黑客的姓名发送至 {{ employer_email }}，之后报酬将被交付。
+    
+    END
+
+WhoIsTheTarget: 那由你来确定。
+WhySoMuchMoney: 黑客肯定会掩盖他们的踪迹。
+HowSecure: 你可能需要黑入多个目标。

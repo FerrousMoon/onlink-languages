@@ -1,0 +1,30 @@
+# Headline
+- Select:
+    - {{computer_name}} 再次被黑客攻击
+    - {{computer_name}} 网络安全再度失效
+    - {{computer_name}} 再次被黑客渗透
+
+# Paragraph 1 options
+- Select:
+    - {{computer_name}} 再次遭到未知网络犯罪分子的攻击和渗透。
+    - 今天早些时候，{{computer_name}} 系统再次遭到计算机黑客的攻击。
+    - {{company_name}} 今天又遭遇了令人尴尬的安全问题，因为他们的 {{computer_name}} 系统又被未知来源的黑客攻击。
+
+# Paragraph 2 options
+- Select:
+    - 这个系统在过去一个月内至少被攻击了又双叒叕次。
+    - 这是 {{company_name}} 在长期的网络安全失败中的最新一例。
+    - 随着这个系统最近多次被黑客攻击，投资者信心低迷。
+
+# Etc
+- Text: 这发生在 {{date_time}}。
+
+- Select:
+    - 目前认为黑客试图进行未经授权的资金转移。
+    - 记录显示黑客执行了一种财务转移，然后试图删除其行为的任何痕迹。
+    - 黑客一旦获得对该系统的访问权限，可以在账户之间进行多种资金转移。
+
+- Select:
+    - {{company_name}} 聘请了网络安全专家，试图抓住肇事者。
+    - {{company_name}} 表示他们对抓住黑客充满信心。
+    - 鉴于近期多次攻击，{{company_name}} 正考虑采取进一步措施。

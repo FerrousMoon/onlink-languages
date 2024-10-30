@@ -1,0 +1,12 @@
+Subject: {{computer_name}}金融系统竟然被黑客“光临”了
+
+Body: |
+    金融计算机系统 {{computer_name}} 被未知来源的黑客侵入。
+    
+    这是 {{company_name}} 的第一次此类事件。
+    
+    事件发生在 {{date_time}}。
+    
+    黑客一旦获得该系统的访问权限，就可以进行各种资金转账。
+    
+    {{company_name}} 正在调查此事件。

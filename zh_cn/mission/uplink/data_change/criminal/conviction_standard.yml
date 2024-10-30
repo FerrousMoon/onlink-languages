@@ -1,0 +1,18 @@
+---
+Subject: 帮助诋毁我们的对手
+Body: |
+    入侵全球犯罪数据库：
+    
+    目标计算机数据：
+      位置 : {{ computer_name }}
+      IP  : {{ computer_ip }}
+    
+    我们需要让 { person_name }} 名誉扫地,这样任何关于{[他的|她的]}背景检查都会显示“很好的结果”。打开{[他的|她的]}犯罪记录并给{[他|她]}并给他一个 {{ misc_string }} 的罪名。
+    
+    发送完成通知到：
+    {{ employer_email }}
+    
+    END
+
+WhoIsTheTarget: 我们暂时不想透露他的的姓名。
+WhySoMuchMoney: 目标可能有朋友。

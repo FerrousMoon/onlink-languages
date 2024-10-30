@@ -1,0 +1,22 @@
+---
+Subject: 伪造社会保障文件
+Body: |
+    入侵 {{ computer_name }}：
+    
+    目标计算机数据：
+      位置 : {{ computer_name }}
+      IP  : {{ computer_ip }}
+    
+    下面的人生活得太轻松了。将{[他|她]}的个人状态改为“{{ misc_string }}”。
+    
+    目标信息：
+       姓名：{{ person_name }}
+    
+    将完成通知发送至：
+    {{ employer_email }}
+    
+    END
+
+WhoIsTheTarget: 你不会认识这个名字。
+WhySoMuchMoney: 我们需要尽快利用这个机会。
+HowSecure: 你将需要绕过代理服务器。

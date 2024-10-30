@@ -1,0 +1,8 @@
+Subject: 科研数据泄密！{{company_name}}中央主机遭遇入侵，数百Gigaquads科学研究成果被盗！
+
+Body: |
+    {{company_name}}今晨发现其中央主机之一被盗取了大量计算机数据。
+    
+    被盗文件包含了一个大型科学研究项目的数据，该项目是{{company_name}}在过去三年中辛勤工作的成果。在入侵者断开连接之前，约{{misc_numeric}} Gigaquads的数据被复制。
+    
+    {{company_name}}无疑会努力查找这一盗窃背后的公司。

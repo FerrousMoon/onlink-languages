@@ -1,0 +1,42 @@
+---
+Subject: 缴纳 {{ misc_numeric }}c 罚款
+# misc_string is the reason for the fine
+Body: |
+    {{ misc_string }}
+    
+    作为这一行动的结果，依法你需向以下账户缴纳罚款。
+    
+    银行 : {{ computer_name }}
+    IP : {{ computer_ip }}
+    银行账户 : {{ account_number }}
+    罚款 : {{ misc_numeric }} credits
+    截止日期 : {{ date_time }}
+    
+    逾期未能支付这笔罚款，可能会导致监禁。
+    连接到该帐户。
+    然后从菜单中选择“转账”，并填写以上细节。
+    
+    一旦你已支付罚款，发送邮件到 {{ employer_email }} 确认回执。
+    
+    END
+
+OnCompleted:
+    Subject: 已缴纳罚金
+    Body: |
+        已收到下列你所违反法规的罚款：
+        {{ misc_string }}
+
+OnNotCompleted:
+    Subject: 罚款仍未缴纳
+    Body: |
+        我们至今都没有收到下列罚单的账单：
+        {{ misc_string }}
+        
+        请确保此付款尽快执行，以避免进一步的行动。
+
+OnFailure:
+    Subject: 未支付罚款
+    Body: |
+        您选择不支付罚款。因此，很快将对您开始法律程序。
+        
+        建议您寻求法律援助。

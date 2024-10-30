@@ -1,0 +1,9 @@
+---
+Description: >
+    {% if mission_type == MakeDeceased %}
+    social/kill.yml
+    {% elif mission_type == Resurrect %}
+    social/resurrect.yml
+    {% else %}
+    {% abort %}
+    {% endif %}

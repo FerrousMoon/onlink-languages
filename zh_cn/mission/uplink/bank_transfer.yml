@@ -1,0 +1,27 @@
+---
+Subject: 我们尊敬的同事希望进行捐赠。
+Body: |
+    入侵以下知名金融机构：
+    
+    目标计算机数据：
+      位置 : {{ computer_name }}
+      IP  : {{ computer_ip }}
+    
+    入侵账号 {{ account_number }}， 名字是 {{ account_name }}。
+    
+    将 {{ misc_numeric }} c转入以下账户：
+      位置 : {{ target_name }}
+      IP : {{ target_ip }}
+      ACCNO : {{ target_account_number }}
+    
+    发送完成通知到：
+    {{ employer_email }}
+    
+    END
+
+WhySoMuchMoney: 金融系统总是守卫很严。
+HowSecure: 该银行使用代理和监视器。
+
+OnNotCompleted:
+    NoTransfer: 转账还未入账。
+    InvalidTransfer: 似乎已经被转账了，但转账金额似乎不对。

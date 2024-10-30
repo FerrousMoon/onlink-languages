@@ -1,0 +1,50 @@
+---
+Subject: 需要精英黑客来摧毁计算机系统
+Body: |
+    我们的一个竞争对手犯了一个严重的错误，他们过度依赖一个主要计算机系统，我们打算利用这个疏忽。
+    
+    我们希望您使下面的计算机系统停止运作。
+    
+    使用任何必要手段，包括病毒攻击或系统重置，但必须销毁所有数据且系统本身必须关闭。
+    
+    目标计算机数据：
+      位置 : {{ computer_name }}
+      IP  : {{ computer_ip }}
+    
+    完成任务后，请发送邮件至 {{ employee_email }}，我们将确定您是否成功。
+    
+    END
+
+Details: |
+    {{ Details }}
+    {% if computer_type == LAN %}
+    
+    数据存储在局域网上。
+    {% endif %}
+
+WhoIsTheTarget: 该系统归 {{ company_name }} 所有。
+WhySoMuchMoney: 该计算机系统受到严格防御。
+
+OnNotCompleted: 我们还没有听说系统已经被摧毁。
+OnFailure:
+    MailSubject: 任务完成遇到问题。
+    Payout: |
+        {% if mission_payment_type == HalfAtStart %}
+        
+        因此，我们将不会支付任何额外费用。
+        
+        {% elif mission_payment_type == NoneAtStart %}
+        
+        因此，我们只会支付您合同金额的一半。
+        
+        {% endif %}
+    BackupIntact: |
+        目标系统似乎已关闭，但备份保持完好。 
+        这意味着该公司有可能恢复数据。
+        {{ Payout }}
+        您以后应该在关闭系统之前删除所有文件。
+    FilesExist: |
+        目标系统似乎已关闭，但文件未被删除。
+        这意味着该公司有可能恢复数据。
+        {{ Payout }}        
+        您以后应该在关闭系统之前删除所有文件。

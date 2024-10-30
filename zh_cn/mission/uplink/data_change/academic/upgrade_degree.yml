@@ -1,0 +1,14 @@
+---
+Subject: 提升我们合作伙伴的学术地位
+Body: |
+    这个人需要一个甲级的学位（class 1）。
+    
+    目标信息：
+      姓名：{{ person_name }}
+    
+    发送完成通知到：
+    {{ employer_email }}
+    
+    END
+
+WhySoMuchMoney: 这个资格对我们非常有用。

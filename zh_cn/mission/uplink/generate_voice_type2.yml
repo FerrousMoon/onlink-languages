@@ -1,0 +1,15 @@
+---
+Subject: 提供一个声音样本以供调查使用
+Body: |
+    内部调查目前需要关于此个人的信息：
+    
+    姓名 : {{ person_name }}
+    
+    {[他|她]}使用语音识别保护了了{[他|她]}的资产。 
+    请将声音样本发送至：
+    {{ employer_email }}
+    
+    END
+
+WhoIsTheTarget: {[他|她]}不是您会认识的人。
+WhySoMuchMoney: 出色的工作应得到适当的报酬。

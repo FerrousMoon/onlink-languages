@@ -1,0 +1,13 @@
+---
+Description: >
+    {% if mission_type == AddStandardConviction %}
+    criminal/conviction_standard.yml
+    {% elif mission_type == AddHackingConviction %}
+    criminal/conviction_hacking.yml
+    {% elif mission_type == RemoveConvictions %}
+    criminal/conviction_remove.yml
+    {% else %}
+    {% abort %}
+    {% endif %}
+
+HowSecure: GCD 使用了多种安全系统，包括 VDPIN。

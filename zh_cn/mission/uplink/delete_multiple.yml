@@ -1,0 +1,41 @@
+---
+Description: >
+    {% if mission_type == Research %}
+    delete_multiple/research.yml
+    {% elif mission_type == Corporate %}
+    delete_multiple/corporate.yml
+    {% elif mission_type == Customer %}
+    delete_multiple/customer.yml
+    {% elif mission_type == Software %}
+    delete_multiple/software.yml
+    {% else %}
+    {% abort %}
+    {% endif %}
+
+Details: |
+    {{ Details }}
+    
+    {% if computer_type == LAN %}
+    数据存储在局域网上。
+    {% endif %}
+
+OnNotCompleted: 我们还没有听说任何关于伤害已造成的消息。
+OnFailure: |
+    黑客，这真是您一次相当壮观的失败。您不仅未能删除所有备份，还促使该公司将所有当前数据存储到异地。
+    
+    {% if mission_payment_type == FullAtStart %}
+    坦白说，我们对您这位所谓经验丰富的黑客寄予了很多期望。
+    {% elif mission_payment_type == HalfAtStart %}
+    因此，我们将不会支付任何额外费用。
+    {% elif mission_payment_type == NoneAtStart %}
+    因此，我们将不会支付任何形式的费用。
+    {% endif %}
+
+WhoIsTheTarget: 数据归 {{ company_name }} 所有。
+WhySoMuchMoney: 数据将得到很好的保护。
+HowSecure: >
+    {% if computer_type == LAN %}
+    目标在一个局域网，将受到良好的保护。
+    {% else %}
+    {{ HowSecure }}
+    {% endif %}

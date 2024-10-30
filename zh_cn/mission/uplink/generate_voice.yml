@@ -1,0 +1,21 @@
+---
+Subject: 获取个人的语音样本
+Body: |
+    由于最近的发展，我们需要从{{ person_name }}那里获取一段语音录音。
+    
+    我们希望您能获取该人的声音样本并在你的回复中提供。
+    
+    您可以查阅电话数据库来帮助您。
+    
+    请将完成通知发送至：
+    {{ employer_email }}
+    			
+    END
+
+WhoIsTheTarget: {[他|她]}不是您所熟悉的任何人。
+WhySoMuchMoney: 录音设备对公众来说很难获取。
+
+OnNotCompleted:
+    FileMissing: 您的回复中没有附上语音样本。
+    FileUnreadable: 我们无法读取该语音样本。您发送的是加密文件吗？
+    FileIncorrect: 这不是正确的语音样本。

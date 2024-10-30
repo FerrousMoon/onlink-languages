@@ -1,0 +1,22 @@
+---
+Subject: 恢复我们系统上的日志
+Body: |
+    我们的系统最近被一名未知人士访问。
+    
+    该人成功地修改了系统日志以掩盖他们的踪迹。我们希望您能访问我们的系统并恢复已被修改的日志。为了访问我们的系统，我们将提供一个访问代码。
+    				
+    目标详情： 
+    {{ computer_name }}
+      IP : {{ computer_ip }}
+    名称 : {{ misc_string }}
+    代码 : {{ misc_string2 }}
+    
+    请将完成通知发送至：
+    {{ employer_email }}
+    
+    END
+
+WhoIsTheTarget: 它是我们的一个系统。
+WhySoMuchMoney: 我们需要这次调查保持低调，而自行进行调查所需的工具并未公开可用。
+
+OnNotCompleted: 我们认为所有日志尚未恢复。

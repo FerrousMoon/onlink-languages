@@ -1,0 +1,31 @@
+---
+Subject: 
+    - 寻找并摧毁大型机上的关键数据
+    - 入侵对手的计算机系统并破坏文件
+    - 侵入电脑并删除关键文件
+Body: |
+    感谢您为 {{ employee_name }} 工作。
+    
+    目标计算机数据：
+      位置 : {{ computer_name }}
+      IP : {{ computer_ip }}
+       文件名 : {{ misc_string }}
+       文件大小 : {{ misc_numeric }} GigaQuads
+    
+    摧毁文件和所有备份
+    
+    发送完成通知到：
+    {{ employer_email }}
+    
+    END
+
+WhySoMuchMoney: |
+    {% if mission_is_difficult %}
+    这些数据被很好的保护。
+    {% else %}
+    {{ WhySoMuchMoney }}
+    {% endif %}
+
+OnNotCompleted:
+    FileExists: 根据我们的信息来源，该文件尚未被删除。
+    BackupIntact: 根据我们的消息，文件仍然保存在注册表中。您检查过系统的所有备份吗？

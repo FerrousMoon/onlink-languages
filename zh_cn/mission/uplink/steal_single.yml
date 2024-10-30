@@ -1,0 +1,60 @@
+---
+Subject:
+    - 从对手公司的文件服务器窃取重要数据
+    - 入侵一个远程系统并拷贝一份重要的数据文件
+    - 侵入对手系统的并窃取研究文件
+Body: |
+    感谢您为{{ employer_name }}工作。
+    
+    目标计算机数据：  
+        位置 : {{ computer_name }}
+        IP : {{ computer_ip }}
+        文件名 : {{ misc_string }}
+        文件大小 : {{ misc_numeric }} GigaQuads
+    
+    {% if has_heavy_encryption %}
+    该文件被重度加密。
+    {% elif has_encryption %}
+    该文件被加密。
+    {% endif %}
+    {% if has_heavy_compression %}
+    该文件被重度压缩。
+    {% elif has_compression %}
+    该文件将被压缩。
+    {% endif %}
+    
+    请通过电子邮件将文件发送至：  
+    {{ employer_email }}  
+    
+    END
+
+Details: |
+    {{ Details }}
+    您需要大约 {{ misc_numeric }} GigaQuads 的储存空间。
+
+WhySoMuchMoney: |
+    {% if mission_is_difficult %}
+    这些文件包含敏感数据。
+    {% else %}
+    {{ WhySoMuchMoney }}
+    {% endif %}
+
+OnNotCompleted:
+    MissingFile: 您似乎没有附上文件。
+    WrongFile: 这不是我们要的文件。
+    IsEncrypted: |
+        您的任务尚未完成。
+        
+        您发送给我们的数据使用了我们无法破解的{{ file_encryption }}级加密。
+        
+        请解除文件的加密并再次发送给我们。
+        {% if mission_payment != 0 %}
+        
+        在完成这项工作之前，您不会得到报酬。
+        {% endif %}
+    IsCorrupt: |
+        您的任务尚未完成。
+        
+        您发送给我们的数据已损坏，我们无法读取任何数据。
+        
+        请尝试重新下载该文件并再次发送给我们。

@@ -1,0 +1,17 @@
+---
+Description: >
+    {% if mission_type == AddDegree %}
+    academic/add_degree.yml
+    {% elif mission_type == UpgradeDegree %}
+    academic/upgrade_degree.yml
+    {% elif mission_type == DowngradeDegree %}
+    academic/downgrade_degree.yml
+    {% elif mission_type == AddQualification %}
+    academic/add_qualification.yml
+    {% else %}
+    {% abort %}
+    {% endif %}
+
+WhoIsTheTarget: 只是我们的一个朋友。
+
+OnNotCompleted: 你还没有改变任何数据。

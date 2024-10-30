@@ -1,0 +1,22 @@
+---
+Subject: 创建一个新身份
+Body: |
+    入侵 {{ computer_name }}：
+    
+    目标计算机数据：
+      位置 : {{ computer_name }}
+      IP  : {{ computer_ip }}
+    
+    下面的这个人最近刚刚去世，我们想借用一下{[他|她]}的身份。更改{[他|她]的个人状态为“{{ misc_string }}”。
+    
+    目标信息：
+       姓名：{{ person_name }}
+    
+    将完成通知发送至：
+    {{ employer_email }}
+    
+    END
+
+WhoIsTheTarget: 你不会认识这个名字。
+WhySoMuchMoney: 我们急需使用这个社保记录。
+HowSecure: 你将需要绕过代理服务器。

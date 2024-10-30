@@ -1,0 +1,17 @@
+---
+Description: >
+    {% if mission_type == AnyHacking %}
+    frame_user/hacking.yml
+    {% elif mission_type == DataDestruction %}
+    frame_user/destruction.yml
+    {% elif mission_type == FinancialFraud %}
+    frame_user/financial.yml
+    {% else %}
+    {% abort %}
+    {% endif %}
+
+WhoIsTheTarget: 是我们非常不喜欢的人。
+WhySoMuchMoney: 雇主和他的朋友们可能会追究您。
+
+OnNotCompleted: 那个人尚未被逮捕。在此之前，我们将不会支付费用。
+OnFailure: 此人被逮捕，但并不是因为我们特别要求的罪行。因此，我们将不会支付费用。

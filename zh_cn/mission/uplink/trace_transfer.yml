@@ -1,0 +1,33 @@
+---
+Subject: 追踪未授权的资金转移
+Body: |
+    我们的银行账户最近被黑客入侵，资金被转移到一个未知的账号。
+    
+    使用任何必要手段去追查黑客。
+    
+    我们受此影响的帐户是：
+    
+    {{ computer_name }}
+     IP : {{ computer_ip }}
+     ACCNO : {{ account_number }}
+     密码 : {{ account_password }}
+    
+    转账金额为{{ misc_numeric }}c。
+    大概是在 {{ date_short }}。
+    
+    您被授权访问被破坏的账户。
+    
+    一旦您追踪到黑客，请将他的名字发送至 {{ employer_email }}，如果有必要，我们将进一步采取措施。
+    
+    END
+
+WhoIsTheTarget: 那由您来找到他。
+WhySoMuchMoney: 银行记录是出了名的难以破解。
+HowSecure: 银行都是防护很好的。
+
+OnNotCompleted:
+    Misunderstanding: |
+        我们已经确定，这些钱确实被转移到这个人的帐户过，但我们不相信他是最终负责此事的人。请您继续追查。
+        
+        我们想知道进行转账的黑客的名字。
+    NotResponsible: 他并不是应此负责的人。

@@ -1,0 +1,15 @@
+---
+Description: >
+    {% if mission_group == Academic %}
+    data_change/academic.yml
+    {% elif mission_group == Criminal %}
+    data_change/criminal.yml
+    {% elif mission_group == Social %}
+    data_change/social.yml
+    {% elif mission_group == DNS %}
+    data_change/dns.yml
+    {% else %}
+    {% abort %}
+    {% endif %}
+
+OnNotCompleted: 你还没有改变任何数据。

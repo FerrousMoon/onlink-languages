@@ -1,0 +1,20 @@
+---
+Subject: 清除犯罪记录
+Body: |
+    入侵全球犯罪数据库：
+    
+    目标计算机数据：
+      位置 : {{ computer_name }}
+      IP  : {{ computer_ip }}
+    
+    我们行业中的一位朋友因为{[他|她]}的犯罪记录而难以找到工作。如果您能删除{[他|她]}的所有犯罪记录，我们将不胜感激。
+    
+    个人目标：{{ person_name }}
+    
+    发送完成通知到：
+    {{ employer_email }}
+    
+    END
+
+WhoIsTheTarget: 只是我们的一个需要帮助的朋友。
+WhySoMuchMoney: 警方可能会来找你。

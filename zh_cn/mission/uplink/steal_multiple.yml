@@ -1,0 +1,39 @@
+---
+Description: >
+    {% if mission_type == Research %}
+    steal_multiple/research.yml
+    {% elif mission_type == Corporate %}
+    steal_multiple/corporate.yml
+    {% elif mission_type == Customer %}
+    steal_multiple/customer.yml
+    {% elif mission_type == Software %}
+    steal_multiple/software.yml
+    {% else %}
+    {% abort %}
+    {% endif %}
+
+Details: |
+    {{ Details }}
+    
+    您需要大约 {{ misc_numeric }} GigaQuads 的储存空间。
+    {% if computer_type == LAN %}
+    数据存储在局域网中。
+    {% endif %}
+
+OnNotCompleted:
+    AllEncrypted: 我们可以在文件服务器上看到一些文件，但它们似乎被加密了。在我们付款之前，您需要解密它们。
+    Encrypted: 您所恢复的数据不多，而且很多都被加密了——请复制更多并解密所有文件。
+    AllCorrupt: 我们可以在文件服务器上看到一些文件，但它们似乎已损坏。您需要修复或重新下载它们，我们才会付款。
+    Corrupt: 我们可以在文件服务器上看到一些文件，但它们似乎已损坏。您需要修复或重新下载它们，我们才会付款。
+    NoFile: 我们没有在指定的文件服务器上找到任何文件。
+    NotEnoughFiles: 您复制的数据不多——在我们付款之前，我们需要更多数据。
+
+OnFailure:
+    Subject: 你最近的任务
+    Body: |
+        我们审查了您最近复制数据文件的任务。看起来您获取了大部分文件，但还有一些缺失。
+        
+        因此，我们决定将总付款减少到 {{ mission_adjusted_payment }}c。
+    
+WhoIsTheTarget: 数据归 {{ company_name }} 所有。
+WhySoMuchMoney: 需要复制的数据量很大。

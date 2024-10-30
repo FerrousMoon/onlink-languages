@@ -1,0 +1,14 @@
+---
+Subject: 丰富的专业所需的资格
+Body: |
+    此人急需将“{{ misc_string }}”资格添加到{[他的|她的]}记录中。
+    
+    目标个人：
+      姓名: {{ person_name }}
+    
+    发送完成通知到：
+    {{ employer_email }}
+    
+    END
+
+WhySoMuchMoney: 这个资格是进入目标行业所必需的。

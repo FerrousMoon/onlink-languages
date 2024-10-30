@@ -1,0 +1,43 @@
+Description: uplink_mole_description.yml
+
+PaymentDetail: 提供服务
+
+OnNotCompleted: |
+    {% if mission_mole_has_program == false %} 我们在文件服务器上没有看到任何数据中包含了黑客名单，您是否已上传并解密了数据？
+    {% else %}
+    看起来您已经上传的Uplink黑客名单程序，但我们在文件服务器上没有看到任何黑客名单数据。该程序是不能和数据分离使用的。
+    
+    请问您是否已上传并解密了数据？
+    {% endif %}
+
+OnFailure:
+    Subject: 您最近的任务
+    Body: |
+        我们审核了您最近复制的数据文件。
+        看起来您拿到了大部分的文件，但缺失了其中的一些。
+        我们决定对余款扣除"{{ mission_adjusted_payment }}c.
+
+OnCompleted:
+    Subject: 任务完成
+    Body: |
+        我们刚刚检查了我们的文件服务器，我们已经看到了包含了黑客真实信息的数据。这些数据将非常有用。
+        {% if mission_full_completion == true %} 我们几乎获得了所有的Uplink黑客的真实姓名。
+        {% else %} 最后我们能够获得大约{{ misc_numeric }}%的Uplink黑客真实姓名。
+        {% endif %}
+        {% if mission_mole_has_program == true %} 我们还注意到您上传了Uplink公司使用的程序列表。
+        {% else %} 不幸的是您没有上传用于访问数据的名单程序。这将使源数据的恢复更加困难。
+        {% endif %}
+        {% if mission_full_completion == true %} 因此，我们将向您支付全部 {{ mission_payment }}c。
+        {% else %} 基于此，我们将只支付您{{ mission_adjusted_payment }}c作为此任务的报酬，而可用报酬为 {{ mission_payment }}。
+        {% endif %}
+        
+        再一次，对一个令人难以置信的黑客表示祝贺。
+        
+        END
+
+OnAlreadyCompleted:
+    Subject: 任务撤回
+    Body: |
+        看起来您已经出卖了这些信息。
+        
+        由于现在已经进入公共领域，我们已经撤回了任务。

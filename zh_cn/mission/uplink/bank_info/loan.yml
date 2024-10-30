@@ -1,0 +1,18 @@
+---
+Subject: 客户对敌人的财务数据很感兴趣
+Body: |
+    侵入下面的知名金融机构：
+    
+    目标计算机数据：
+      位置： {{ computer_name }}
+      IP： {{ computer_ip }}
+    				
+    我们对这个人的银行存款余额很有兴趣。打开{[他的|她的]}账户并确定{[他|她]}贷款额度。将此信息发送给我们。
+    
+    姓名: {{ account_name }}
+    ACCNO: {{ account_number }}
+    
+    将完成通知发送至：
+    {{ employer_email }}
+    
+    END

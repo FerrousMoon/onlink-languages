@@ -1,0 +1,19 @@
+---
+generic_ok: OK
+generic_return: Return
+generic_back: Back
+generic_next: Next
+generic_unknown: Unknown
+
+generic_success: Success
+generic_error: Error
+
+account_admin: admin
+account_readwrite: readwrite
+account_readonly: readonly
+
+# September, 2020
+yearmonth_format: {{ misc_string }}, {{ misc_numeric }}
+
+size_format: {{ misc_numeric }} Gq
+money_format: {{ misc_numeric }}c

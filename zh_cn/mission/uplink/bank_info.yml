@@ -1,0 +1,26 @@
+---
+Description: >
+    {% if mission_type == AccountNumber %}
+    bank_info/accountNumber.yml
+    {% elif mission_type == BankBalance %}
+    bank_info/balance.yml
+    {% elif mission_type == LoanSize %}
+    bank_info/loan.yml
+    {% elif mission_type == TransferRecipient %}
+    bank_info/recipient.yml
+    {% else %}
+    {% abort %}
+    {% endif %}
+
+WhoIsTheTarget: 没有你认识的人。
+WhySoMuchMoney: 这些数据非常个人化，并且保护得很好。
+
+OnNotCompleted:
+    InvalidConfirmed: 您提供的信息似乎无效。
+    InvalidSuspected: 请您核实一下结果吗？我们有理由相信它们不准确。
+
+OnFailure:
+    AccountClosed: |
+        由于账户已关闭，我们需要时间找到该人的新账户和我们想要的信息。我们的目标也可能会变得更加小心，这将使任务变得更加复杂。
+        
+        我们相信您有您的理由，但我们敦促您在未来避免这种行为。
