@@ -6,6 +6,7 @@ generic_previous: Previous
 generic_next: Next
 generic_unknown: Unknown
 
+generic_close: Close
 generic_cancel: Cancel
 generic_continue: Continue
 generic_done: Done

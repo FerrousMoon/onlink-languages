@@ -22,7 +22,6 @@ RetireNotValid:
   Body: "{{ misc_string }}" is not currently on the roster.
   
 # Options
-
 ScreenChanged:
   Type: Confirmation
   Subject: Keep Changes ?
@@ -193,6 +192,11 @@ LoanNotZero:
   Body: |
     Your account cannot be closed.
     The loan must be zero.
+
+MissingTransferField:
+  Type: Simple
+  Subject: {{ generic_error }}
+  Body: You must first fill out all of the fields before making a transfer.
 
 # Records
 AcademicUpdate:

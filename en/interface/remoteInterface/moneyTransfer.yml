@@ -1,0 +1,33 @@
+---
+SourceAccount:
+  Text: Acc No. (From)
+  Tip: Shows the source account number
+  
+TargetIP:
+  Text: Bank IP (To)
+  Tip: Enter the IP of the target bank here
+  
+TargetIPBox:
+  Hint: Enter the IP of the target bank
+
+TargetAccount:
+  Text: Acc No. (To)
+  Tip: Enter the target account number here
+  
+TargetAccountBox:
+  Hint: Enter the target account number
+
+Amount:
+  Text: Amount
+  Tip: Enter the value (in credits) to transfer
+
+AmountBox:
+  Hint: Enter the value (in credits) to transfer
+
+Transfer:
+  Text: Transfer
+  Tip: Perform the transaction
+  
+Cancel:
+  Text: {{ generic_cancel }}
+  Tip: Cancel the transfer

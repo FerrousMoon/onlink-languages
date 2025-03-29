@@ -1,0 +1,89 @@
+---
+MainMenu:
+  Subtitle: Welcome to our Online Banking Server
+  
+Login:
+  Menu: Manage Existing Account
+  MenuTip: Manage Existing Account
+  
+NewAccount:
+  Subtitle: Create a new account
+  
+AccountCreated:
+  Subtitle: Create New Account
+  Text: Your new account has been created.
+  NextPage: {{ generic_ok }}
+
+AccountMenu:
+  Subtitle: Manage Existing Account
+  AttachScreens:
+  - ID: ReturnToMainMenu
+    Text: {{ generic_done }}
+    Tip: Return to the main menu
+
+BankStatement:
+  Menu: View Statement
+  MenuTip: View your current bank statement
+  Subtitle: Account Statement
+
+TransferMoney:
+  Menu: Transfer Money
+  MenuTip: Wire credits to another account
+  Subtitle: Transfer Money
+
+TransferSuccess:
+  Subtitle: Transfer completed
+  Text: The transfer was completed successfully.
+
+TransferFailure:
+  Subtitle: Transfer failed
+  Text: |
+    The transfer was not completed successfully.
+    Please contact the bank administrator.
+
+LoanMoney:
+  Menu: Loans
+  MenuTip: Manage your loans
+  Subtitle: Loans Management
+
+CloseAccount:
+  MenuTip: Close this account
+  Subtitle: Close your account
+  Text: Are you sure you wish to close your account?
+  NextScreen:
+    Text: {{ generic_close }}
+    Tip: Close your account
+  PreviousScreen:
+  Text: {{ generic_cancel }}
+  Tip: Do not close the account
+
+AccountClosed:
+  Subtitle: Account closed
+  Text: |
+    Your account has been closed.
+    Click OK to return to the main menu.
+
+AdminSecurity:
+  Menu: Administration
+  MenuTip: Access admin features
+  Subtitle: Admin Authorisation required
+
+AdminPassword:
+  Subtitle: Access code required
+
+AdminMenu:
+  Subtitle: Manage Existing Account
+  AttachScreens:
+  - ID: ReturnToMainMenu
+    Text: Main Menu
+    Tip: Return to the main menu
+
+Records:
+  Menu: View All Accounts
+  MenuTip: View all accounts
+  Subtitle: Bank accounts
+
+Logs:
+  Menu: View access logs
+  MenuTip: View activity logs
+

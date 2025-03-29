@@ -17,6 +17,7 @@ Computer:
   Screens:
     Common: world/screens/commonScreens.yml
     PublicSales: world/computer/screens/public_sales.yml
+    PublicBank: world/computer/screens/public_bank_server.yml
     PrimaryServer: world/computer/screens/primary_server.yml
     MainFrame: world/computer/screens/mainframe.yml
     
@@ -64,6 +65,7 @@ Interfaces:
   HWSales: interface/remoteInterface/hardwareSales.yml
   Loans: interface/remoteInterface/loanInfo.yml
   Message: interface/remoteInterface/message.yml
+  MoneyTransfer: interface/remoteInterface/moneyTransfer.yml
   Password: interface/remoteInterface/password.yml
   SharesList: interface/remoteInterface/stockMarketList.yml
   SharesView: interface/remoteInterface/stockMarketView.yml

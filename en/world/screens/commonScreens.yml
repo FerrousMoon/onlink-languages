@@ -112,3 +112,15 @@ DataBank:
   Menu: File server
   MenuTip: Access the file server
   Subtitle: File Server
+
+MoneyTransfer:
+  MenuTip: Wire credits to another account
+  Subtitle: Transfer money
+
+UserRegistration:
+  Menu: Create New Account
+  MenuTip: Create a new account
+
+Account:
+  MenuTip: View Account
+  Subtitle: View Account 

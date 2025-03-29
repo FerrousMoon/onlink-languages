@@ -1,8 +1,4 @@
 ---
-Menu: View Account
-MenuTip: View Account
-Subtitle: View Account 
-
 Owner:
     Text: Account Name
     Tooltip: Shows the name your account is in
