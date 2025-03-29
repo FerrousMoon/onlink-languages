@@ -4,52 +4,71 @@ FullServerName: {{ owner_name }} {{ suffix }}
 FullServerPossessiveName: {{ owner_name }}'s {{ suffix }}
 
 # Computer Type
+company_short_type: |
+  {% if company_type == Academic %} edu
+  {% elif company_type == ServiceProvider %} net
+  {% elif company_type == Government %} gov
+  {% else %} com
+  {% endif %} 
+
+company_domain: {{ company_name }}.{{ company_short_type }}
+
 PublicAccessServer:
-    Name: Public Access Server
+    Name: {{ company_domain }}
+    Alias: Public Access Server
 
 PublicNetworkServer:
-    Name: Network Access Server
+    Name: {{ company_domain }}
+    Alias: Network Access Server
 
 AccessTerminal:
+    Name: terminal-{{ serial }}.{{ company_domain }}
     Alias: Access Terminal
 
 InternalServices:
-    Name: Internal Services Machine
+    Name: internal.{{ company_domain }}
+    Alias: Internal Services Machine
 
 Mainframe:
-    Name: Central Mainframe
+    Name: mainframe.{{ company_domain }}
+    Alias: Central Mainframe
 
 BankServer:
-    Name: International Bank
+    Name: finance.{{ company_domain }}
+    Alias: International Bank
 
 FileServer:
-    Name: File Server
+    Name: ftp.{{ company_domain }}
+    Alias: File Server
 
 BackupServer:
-    Name: Backup Server
+    Name: backup.{{ company_domain }}
+    Alias: Backup Server
 
 CorporateGateway:
-    Name: Gateway System
+    Name: gateway.{{ company_domain }}
+    Alias: Gateway System
     LongName: Gateway Security System
 
 LiftingServer:
-    Name: Lifting Server
-
-LiftingServer2:
-    Name: Lifting Server_
+    Name: ls{{ serial }}.{{ company_domain }}
     Alias: Lifting Server
 
 AclServer:
-    Name: Access Control System
+    Name: exec.{{ company_domain }}
+    Alias: Access Control System
 
 NameServer:
-    Name: Name Server
+    Name: ns{{ serial }}.{{ company_domain }}
+    Alias: Name Server
 
 ProjectServer:
-    Name: Project Server
+    Name: git.{{ company_domain }}
+    Alias: Project Server
 
 LanSystem:
-    Name: Local Area Network
+    Name: vpn.{{ company_domain }}
+    Alias: Local Area Network
 
 LanDialUp:
     Name: LAN Dial Up access
