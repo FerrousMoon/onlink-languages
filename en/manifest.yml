@@ -108,6 +108,7 @@ Interfaces:
   Unknown: interface/commonButtons.yml
   FirstLoad: interface/mainmenu/first_time_loading.yml
   Login: interface/mainmenu/login.yml
+  FirstOptionSelection: interface/mainmenu/options.yml
   Options: interface/mainmenu/options.yml
   OptionsGame: interface/mainmenu/options.yml
   OptionsGraphic: interface/mainmenu/options.yml

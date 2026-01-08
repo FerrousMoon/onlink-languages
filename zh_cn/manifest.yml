@@ -1,0 +1,85 @@
+---
+version: 1
+
+Data:
+  Calendar: calendar.yml
+
+Interfaces:
+  Login: interface/mainmenu/login.yml
+  Options: interface/mainmenu/options.yml
+  OptionsGame: interface/mainmenu/options.yml
+  OptionsGraphic: interface/mainmenu/options.yml
+  OptionsAudio: interface/mainmenu/options.yml
+  OptionsTheme: interface/mainmenu/options.yml
+
+News:
+  ARCUnusualHiring: news/plot/main/act1scene2.yml
+  UplinkAgentRaisesDoubt: news/plot/main/act1scene3.yml
+  TopUplinkAgentReassures: news/plot/main/act1scene4.yml
+  TopUplinkAgentFoundDead: news/plot/main/act1scene5.yml
+  UplinkWarnsAgainstARC: news/plot/main/act1scene8.yml
+  ArunmorFirstStrikeByRevelation: news/plot/main/act3scene1arc.yml
+  ArunmorRevelationNearMiss: news/plot/main/act3scene1arunmor.yml
+  ArunmorFirstResponse: news/plot/main/act3scene2.yml
+  UplinkFaithService: news/plot/main/act3scene2uplinkservice.yml
+  RevelationDetailsARC: news/plot/main/act3scene3arc.yml
+  RevelationDetailsArunmor: news/plot/main/act3scene3arunmor.yml
+  GovernmentFirstResponse: news/plot/main/act3scene4.yml
+  ARCISMHacked: news/plot/main/act4scene4.yml
+  ARCCEOArrested: news/plot/main/act4scene5.yml
+  ARCLANHacked: news/plot/main/act4scene6.yml
+  DarwinStolen: news/plot/main/act4scene10.yml
+  ArunmorFraud: news/plot/main/act4scene11.yml
+  ArunmorLANAttacked: news/plot/main/act4scene12.yml
+  RevelationLauchSpeculation: news/plot/main/act5scene1.yml
+  RevelationTwarted: news/plot/main/act5scene3.yml
+  RevelationAftermath: news/plot/main/act5scene4.yml
+  AndromedaLeaderPressRelease: news/plot/main/act6scene1.yml
+  AndromedaLeaderJailed: news/plot/main/act6scene2.yml
+  Epilogue: news/plot/main/act6scene3.yml
+
+  Introduction: news/plot/aside/introduction.yml
+
+  DarwiniaDestroyed: news/special/darwinia.yml
+  DefconScare: news/special/defcon.yml
+  UplinkAgentsDying: news/special/mole.yml
+
+Missions:
+  None: mission/common.yml
+  FileStealSingle: mission/uplink/steal_single.yml
+  FileDeleteSingle: mission/uplink/delete_single.yml
+  FileStealBulk: mission/uplink/steal_multiple.yml
+  FileDeleteBulk: mission/uplink/delete_multiple.yml
+  RecordFindPersonalComputer: mission/uplink/record_find_pc.yml
+  RecordFindBankInfo: mission/uplink/bank_info.yml
+  RecordModifyAcademic: mission/uplink/data_change.yml
+  RecordModifyCriminal: mission/uplink/data_change.yml
+  RecordModifySocial: mission/uplink/data_change.yml
+  PersonFrame: mission/uplink/frame_user.yml
+  PersonTrace: mission/uplink/trace_hack.yml
+  PersonTraceBankTransfer: mission/uplink/trace_transfer.yml
+  BankAccountTransfer: mission/uplink/bank_transfer.yml
+  ComputerDelete: mission/uplink/computer_destroy.yml
+  PersonImprison: mission/uplink/remove_person.yml
+  RunProcess: mission/uplink/run_process.yml
+
+  BankAccountClose: mission/uplink/bank_account_delete.yml
+  DataGenerateVoice: mission/uplink/generate_voice.yml
+  LogUndelete: mission/uplink/restore_log.yml
+  RecordModifyDNS: mission/uplink/data_change.yml
+  FinePay: mission/special/pay_fine.yml
+  PersonExonerate: mission/uplink/exonerate_person.yml
+
+  MaidenFlight: mission/mainPlot/arc_maidenFlight.yml
+  Darwin: mission/mainPlot/arc_darwin.yml
+  SaveItForTheJury: mission/mainPlot/arc_saveItForTheJury.yml
+  ShinyHammer: mission/mainPlot/arc_shinyHammer.yml
+  GrandTour: mission/mainPlot/arc_grandTour.yml
+
+  Tracer: mission/mainPlot/arunmor_tracer.yml
+  TakeMeToYourLeader: mission/mainPlot/arunmor_takeMeToYourLeader.yml
+  ARCInfiltration: mission/mainPlot/arunmor_infiltration.yml
+  CounterAttack:  mission/mainPlot/arunmor_counterattack.yml
+
+  Mole: mission/special/uplink_mole.yml
+  Tutorial: mission/special/test_mission.yml

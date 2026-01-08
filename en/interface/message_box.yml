@@ -24,12 +24,19 @@ RetireNotValid:
   Body: "{{ misc_string }}" is not currently on the roster.
   
 # Options
-ScreenChanged:
+OptionChanged:
   Type: Confirmation
   Subject: Keep Changes ?
   Body: |
     Do you wish to keep the current Changes ?
     The changes will be reverted in {{ misc_numeric }} seconds.
+    
+CancelOptionChanges:
+  Type: Confirmation
+  Subject: Discard Changes ?
+  Body: |
+    Some options are not automatically applied. If left untested, they will be cancelled.
+    Do you wish to discard these options ?
 
 # Pause
 GamePaused:

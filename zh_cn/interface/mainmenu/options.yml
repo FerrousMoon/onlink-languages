@@ -1,0 +1,236 @@
+---
+Options:
+  Text: 选项
+  Tooltip: 高级选项。
+
+GraphicAccess:
+  Text: 图像
+  Tip: 编辑图像选项。
+
+SoundAccess:
+  Text: 声音
+  Tip: 编辑声音选项。
+
+GameplayAccess:
+  Text: 游戏性
+  Tip: 编辑游戏性选项。
+
+UIAccess:
+  Text: 用户界面
+  Tip: 编辑用户界面选项。
+
+MainMenu:
+  Text: 主菜单
+  Tip: 返回主菜单。
+
+# Graphics
+
+SafeMode:
+  Text: 安全模式
+  Tip: 启用图形安全模式，用于故障排查。
+  
+SoftwareMouse:
+  Text: 软件鼠标
+  Tip: 启用或禁用软件鼠标。
+
+Display:
+  Text: 显示器
+  Tip: 选择要使用的显示器。
+  Items:
+    GenericID:
+      Text: 显示器 {{ misc_numeric }}
+      Tip: 选择此显示器。
+      
+    GenericName:
+      Text: {{ misc_string }}
+      Tip: 选择此显示器。
+
+Renderer:
+  Text: 渲染器
+  Tip: 选择渲染后端。
+  Items:
+    Generic:
+      Text: {{ misc_string }}
+      Tip: 选择此渲染器。
+
+ScreenMode:
+  Text: 屏幕模式
+  Tip: 选择所需的屏幕显示模式。
+  Items:
+    Windowed:
+      Text: 窗口模式
+      Tip: 以窗口方式运行游戏。
+
+    FullScreen:
+      Text: 全屏模式
+      Tip: 以全屏方式运行游戏。
+    
+    Borderless:
+      Text: 无边框
+      Tip: 在无边框全屏窗口中运行游戏。
+
+Resolution:
+  Text: 分辨率
+  Tip: 选择所需的分辨率。
+  Items:
+    Generic:
+      Text: {{ misc_numeric }}x{{ misc_numeric2 }} ({{ misc_string }})
+      Tip: 选择此分辨率。
+
+RefreshRate:
+  Text: 刷新率
+  Tip: 选择所需的刷新率。
+  Items:
+    Generic:
+      Text: {{ misc_numeric }}
+      Tip: 选择此刷新率。
+
+VSync:
+  Text: 垂直同步
+  Tip: 选择垂直同步模式。
+  Items:
+    Disable:
+      Text: 禁用
+      Tip: 禁用垂直同步
+
+    Enable:
+      Text: 启用
+      Tip: 启用垂直同步
+    
+    Adaptive:
+      Text: 自适应
+      Tip: 自适应垂直同步
+
+# Gameplay
+
+OriginalExperience:
+  Text: 原版 Uplink 体验
+  Tip: 新建用户将体验更接近原版 Uplink 的流程，并包含 Onlink 的 UI 增强。
+
+UplinkOS:
+  Text: UplinkOS 引擎
+  Tip: 重启游戏并以 Uplink OS 模式启动。
+
+EnhancedTaskManager:
+  Text: 增强任务管理器
+  Tip: 为任务管理器增加或移除更多按钮。
+
+LessMoneyTransferred:
+  Text: 任务产生更少的钱
+  Tip: 启用后，追踪资金转移类任务获得的金钱将减少。
+
+MinimalAmountOfMissions:
+  Text: 强制最小任务数量
+  Tip: 在游戏开始时，为每个等级强制生成最少数量的任务。
+
+AutoAttach:
+  Text: 自动附加任务文件到邮件
+  Tip: 回复任务邮件时，将自动附加对应的任务文件。
+
+CustomSeed:
+  Text: 自定义随机种子
+  Tip: 在新游戏开始时显示或隐藏随机数种子输入界面。
+
+# UI
+
+Shortcuts:
+  Text: 快捷键
+  Items:
+    KeyBind:
+      Text: {{ misc_string }}
+      Tip: 点击以更改按键绑定
+  
+    Generic:
+      Text: {{ misc_string }}
+      Tip: 将此操作绑定到快捷键
+
+ShortcutPrevious:
+  Tip: 显示上一页快捷键
+  
+ShortcutAdd:
+  Text: 添加快捷键
+  Tip: 点击以添加一个快捷键
+  
+ShortcutNext:
+  Tip: 显示下一页快捷键
+
+ThemeSelection:
+  Text: 主题选择
+  Tip: 选择要使用的 UI 主题
+  Items:
+    Generic:
+      Text: {{ theme_name }}
+      Tip: 选择 {{ theme_author }} 制作的 {{ theme_name }} {{ theme_comment }}
+
+WorldMapSelection:
+  Text: 世界地图选择
+  Tip: 选择游戏中使用的世界地图
+  Items:
+    Auto:
+      Text: 自动
+      Tip: 选择此世界地图
+
+    Generic:
+      Text: {{ misc_string }}
+      Tip: 选择此世界地图
+
+WorldMapSelectionCurrent:
+  Tip: 这是游戏中将要使用的世界地图
+
+LanguageSelection:
+  Text: 语言
+  Tip: 选择语言
+  Items:
+    Generic:
+      Text: {{ misc_string }}
+      Tip: 选择 {{ misc_string }}，作者 {{ misc_string2 }}
+
+ColourBlind:
+  Text: 色盲模式
+  Tip: 选择色盲模式类型
+
+FontScale:
+  Text: 字体缩放
+  Tip: 设置字体缩放比例
+
+HighlightColour:
+  Text: 链接高亮颜色
+  Hint: "#00000000"
+  Tip: 输入链接默认的高亮颜色
+  
+HighlightColourItem:
+  Tip: 此颜色将用于高亮显示链接
+
+MissionColour:
+  Text: 任务链接颜色
+  Hint: "#00000000"
+  Tip: 输入带有任务的链接默认颜色
+  
+MissionColourItem:
+  Tip: 此颜色将用于带有任务的链接
+
+EnableAnimation:
+  Text: 启用动画
+  Tip: 启用或禁用游戏动画
+
+FastAnimation:
+  Text: 更快的动画
+  Tip: 提高动画播放速度
+
+BorderOnButton:
+  Text: 按钮边框
+  Tip: 为所有按钮添加边框
+
+TextPresentation:
+  Text: 文本显示方式
+  Tip: 设置文本在文本框中的显示方式。
+
+TextEditPresentation:
+  Text: 编辑时文本显示方式
+  Tip: 设置文本在编辑时的显示方式。
+
+TextLinkAction:
+  Text: 默认链接操作
+  Tip: 设置 Ctrl + 单击文本链接时的默认行为。
+
+FontScalerDisplay: 你好，世界！

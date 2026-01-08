@@ -9,6 +9,9 @@ generic_unknown: Unknown
 generic_yes: Yes
 generic_no: No
 
+generic_test: Test
+generic_reset: Reset
+
 generic_close: Close
 generic_cancel: Cancel
 generic_continue: Continue

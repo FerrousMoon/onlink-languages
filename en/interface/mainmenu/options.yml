@@ -1,4 +1,8 @@
 ---
+Options:
+  Text: Options
+  Tooltip: Advanced options
+
 GraphicAccess:
   Text: Graphics
   Tip: Edit GRAPHICS options.
@@ -12,16 +16,12 @@ GameplayAccess:
   Tip: Edit GAMEPLAY options.
 
 UIAccess:
-  Text: UI
+  Text: User Interface
   Tip: Edit User Interface options.
 
 MainMenu:
   Text: Main menu
   Tip: Return to the main menu.
-
-ApplyChanges:
-  Text: Apply Changes
-  Tip: Apply option changes.
 
 # Graphics
 
@@ -233,3 +233,4 @@ TextLinkAction:
   Text: Default Link Action
   Tip: Set the default action when ctrl+click a link in text.
 
+FontScalerDisplay: Hello World!
