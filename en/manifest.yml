@@ -157,6 +157,7 @@ Interfaces:
   SearchBox: interface/remoteInterface/searchRecord.yml
   
   TaskVoiceAnalyser: interface/task/voice_analyser.yml
+  TaskTutorial: interface/task/tutorial.yml
 
 News:
   ARCUnusualHiring: news/plot/main/act1scene2.yml

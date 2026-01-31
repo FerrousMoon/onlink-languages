@@ -1,0 +1,377 @@
+---
+{!include ../../message/agent/newAgent.yml !}
+
+HUDExplanationsContent:
+  - |
+    Welcome to the Uplink Tutorial.
+    This program should help you to get started.
+    Click next to continue.
+  - |
+    First things first - you can move this tutorial on the screen by left-clicking on the title bar.
+    Right click to put it down again.
+  - |
+    We're going to start by looking at some of the facilities available on your screen.
+    Click on the flashing CONNECTION MANAGER button.
+  - This screen shows the connection manager and manual dialer for your Gateway. You can use this interface to connect to any computer system around the world.
+  - We will discuss how to connect to systems later. For now, we will review other interfaces.
+  - Click the flashing NOTEPAD button
+  - Using this interface, you can start new notes for later reference. Saved notes will be sent to the lower right of your screen.
+  - Click on the flashing HARDWARE button.
+  - |
+    This screen shows the status of your Gateway.
+    Your gateway is the link between your home PC and the rest of the Net.
+  - In reality, the gateway is a computer sitting in one of our offices. You'll dial into this Gateway automatically every time you start Uplink.
+  - |
+    At the moment your Gateway is very basic.
+    It has a slow processor and very little memory.
+    You'll be able to upgrade later.
+  - Click on the flashing MEMORY BANKS button.
+  - This screen shows all of the files you have stored in your memory banks. At the moment you only have this tutorial and a couple of file utilities.
+  - Click on the flashing PERSONAL STATUS button.
+  - |
+    This screen shows your official ratings.
+    These reflect your skill and success, and will no doubt increase with time.
+  - As your rating increases, you'll find more interesting and profitable avenues of work become available to you.
+  - Click on the flashing FINANCE button.
+  - Here you can see how much money you have in your bank accounts.
+  - Click on the flashing MISSIONS LIST button
+  - |
+    All the missions will be queued up here.
+    For each you will be able to see the completion time limit and the mail subject.
+  - |
+    We will see more about missions in part 3.
+    Click on the flashing EMAIL LIST button
+  - All the emails you get will be queued up here. For each email, you can see the date and the subject.
+  - To see the full content of an email you have to click on the one you want
+  - You can delete one anytime by clicking the button on the top-right.
+  - Click the flashing KEYMAP interface
+  - |
+    This interface is used to map the keys on your system to specific hooks.
+    These hooks can be hud interfaces, software and even links.
+    Link shortcuts will use your saved connection path.
+  - |
+    The top button allows you to create a new shortcut.
+    The buttons around a shortcut allows you to edit or delete shortcuts.
+  - |
+    Shortcuts that are set in the options cannot be modified from here.
+    You can however overwrite them.
+  - Now close the KEYMAP interface
+  - | 
+    The big button to the left allows you to run the software tools on your Gateway.
+    You can start any program from here.
+  - These two boxes show the date and time, and your current location on the Net.
+  - |
+    These buttons can be used to accelerate time.
+    This can be useful when you're waiting for something to happen.
+  - |
+    This column shows all currently running programs, and how much CPU time is used by each.
+    You can see this tutorial program in the list.
+  - Bring up the Global Communications screen by clicking on the world map.
+  - |
+    This screen allows you to set up long distance connections that bounce around the world.
+    You'll make extensive use of this screen.
+  - |
+    We'll come back here later.
+    Click the close button to return to the main screen.
+  - Open the email list again and take the message with the '{{ Subject }}' subject.
+  - |
+    This is an email from Uplink Corporation.
+    It is basically a welcome message. You should take the time to read it at some point.
+  - |
+    That is the end of Tutorial One. You should have an overview by now of the basic functions on screen.
+    Click next to continue.
+    
+TestMissionContent:
+  - |
+    Welcome this section of the tutorial.
+    We will now show you how to complete your first hack for Uplink.
+  - |
+    Your first hack will be the Uplink test mission.
+    Open the missions list and click on the mission description to read the details
+  - You should read the description carefully, but the basic aim is to break into the Uplink Test Machine and steal a file.
+  - Disconnect from your current site.
+  - |
+    We're going to start by connecting to the target.
+    Select 'Uplink Test Machine' from the list of bookmarked links on screen.
+  - |
+    You've connected to the wrong site.
+    The one we want is the 'Uplink Test Machine'.
+    Try again.
+  - |
+    We're now dialed in to the Test Machine.
+    You should read the opening text message before clicking next.         
+  - Click on the 'Start the test' button to bypass this screen.
+  - This is a User ID screen. You will need a user name and password to get past, which we don't have.
+  - |
+    In reality, you will almost never have a genuine user name and password.
+    You'll have to hack your way in.
+  - |
+    In order to hack our way in, we'll need to buy some software.
+    Disconnect from this machine.
+  - |
+    The best place to buy software for hacking is the 'Uplink Internal Services System'.
+    Connect to that site.
+  - Unlike most sites, you do have a valid user name and password because you are a registered Uplink Agent.
+  - |
+    You can either type your username/password or just click on them to enter automatically.
+    Do this now then click on proceed.
+  - We're in. Your authorization has been accepted and your actions are being monitored by Uplink's central computer system.
+  - This computer system provides a number of valuable services to the hacker community, including software tools which we need.
+  - You can access Uplink-related news stories, accept work from contractors, and upgrade your computer system.
+  - |
+    We want to upgrade our software so we can hack UserID screens.
+    Click on 'Software Market' from the menu.
+  - This screen lists all of the software tools that Uplink currently has for sale. Items in grey are out of your price range.
+  - |
+    The first tool you will need is one of the basic Uplink Agent tools - 
+    the Password Breaker.
+  - Scroll down the list and select the Password Breaker. The current price for this tool is 1500 credits. Click 'purchase'.
+  - |
+    That software tool has now been uploaded into your memory banks, and 1500c have been deducted.
+    We can now try breaking that password.
+  - Disconnect from here and connect to the Uplink Test machine. Bypass the opening text screen.
+  - We want to run our Password Breaker software on this screen. Our new software will appear in our Software menu.
+  - Click on the software Run button.
+  - Start your new Password Breaker by selecting it from the menu. It will be under the 'Crackers' sub-menu.
+  - |
+    The Password Breaker is now running.
+    We now need to give it a target.
+  - Click on the one of the text boxes labeled NAME or CODE. This will start the hack attempt.
+  - Oh dear. You've been disconnected by the computer you were trying to hack into.
+  - They noticed the fact that you were trying to hack their password screen, and kicked you off their system.
+  - Because this is a TEST machine, you won't be punished in any way. In the real world, you could now face a fine or even jail time.
+  - This tutorial will now show you how to hack into a computer without being caught in any way.
+  - |
+    The first thing we need is a warning system, so we can tell if they are about to catch us.
+    We can buy software that will do this.
+  - Connect to the Uplink Internal Services System and go to the Software Market menu, as before.
+  - |
+    Scroll down the list and click on 'Trace Tracker'.
+    This item of software can tell you how close you are to being traced.
+  - |
+    There are several Versions of this item.
+    Higher versions have more features but are more expensive.
+  - |
+    You can afford a Trace Tracker V2.0.
+    Use the 'Next Version' button to select Version 2.0, then click on 'purchase'.
+  - |
+    You've now bought that item of software.
+    You should run it straight away from the software menu, under 'Security'.
+  - The Trace Tracker is now running. It is currently telling you that nobody is trying to trace your location at this time.
+  - Having a warning system is a step in the right direction.
+  - |
+    One other tool we need for this mission is the File Copier.
+    This tool is already provided on the gateway.
+  - |
+    While File Copier downloads any file, it requires you to target a memory slot to place the file in.
+    You should experiment with it a little.
+  - |
+    If this limitation bothers you, feel free to purchase File Copier v2.
+    This version will place a file in the first adequate memory slot.
+  - |
+    One last step is required for the hack.
+    We need to slow down any traces that are being performed on us
+  - We do this by 'Call Bouncing'. This involves extending our connection around the world, to confuse the opponent.
+  - First, disconnect from this system.
+  - Bring up the Global Communications map.
+  - We need to establish a long distance connection to our target (the Uplink Test Machine), bounced through several intermediate systems.
+  - |
+    We build this connection by clicking on each of the intermediate nodes in sequence.
+    Click on the location 'InterNIC'.
+  - |
+    Click on the location 'Uplink Public Access Server'.
+    Click on the wrong location again if you made a mistake.
+  - |
+    Click on the location 'Uplink Internal Services System'.
+    Click on the wrong location again if you made a mistake.
+  - |
+    Finally, click on the target 'Uplink Test Machine'.
+    Click on the wrong location again if you made a mistake.
+  - We've now set up a long distance connection to the target, bounced through three intermediate nodes.
+  - It will take the opponent a lot longer to trace and disconnect us this time.
+  - |
+    On a side note, you might be interested in using the save and load button on the bottom left.
+    they will allow you to preserve a bounce path.
+  - |
+    We are about to jump in.
+    We will have little time to succeed but we can try again if time runs out.
+  - |
+    Check the mission description a final time.
+    We are looking for a file named 'Uplink Test Data'.
+  - |
+    When you are ready,
+    Click on 'Connect' to establish the link.
+  - |
+    Oh dear. We have been traced before we were able to complete the mission.
+    Create another bounce to the Uplink Test Machine and try again.
+  - Bypass the opening screen.
+  - Start the password breaker now.
+  - |
+    Target the password box. As soon as you do this, they will begin tracing you.
+    Click on Proceed when it has finished.
+  - |
+    We are in a menu.
+    Click on the 'Access fileserver' button on the remote host.
+  - Start the File Copier utility from your software menu, under 'File Utilities'
+  - |
+    Target the file in question by clicking on it.
+    (Uplink Test Data)
+  - |
+    The file is now being copied.
+    You can speed this up by clicking on this button at the top to divert more CPU time to this task.
+  - |
+    We've finished copying the file. We now want to dump it into our memory banks.
+    Bring up the Memory banks screen.
+  - Pick up the File Copier by clicking on it
+  - |
+    Now click on a clear area of memory to dump the file in to.
+    Make space if you don't have enough.
+  - We've now got the file. Disconnect from this computer system.
+  - |
+    Congratulation. You now have completed your first hack.
+    Relax and enjoy your success.
+  - In a real-world hack, we'd now have to make some attempt to delete the access logs that we've just left behind.
+  - Every time you log on to a system, copy a file or make any changes, you leave behind access logs.
+  - |
+    These logs can be used by other Agents to trace you and put you in jail.
+    You may even end up tracing another Agent one day.
+  - |
+    Back to the mission. Our final task is to send the copied file back to the customer.
+    Bring up the mission description.
+  - Click on 'reply'.
+  - |
+    We need to attach the stolen file to this email before we send it.
+    Click on the File button and select 'Uplink Test Data'.
+  - Now click on send.
+  - |
+    The mission has now been completed.
+    You'll receive one email from Uplink.
+  - It is congratulating you on completing the mission, and informing you that you've been paid. (In this case, nothing).
+  - |
+    For real missions, you may receive a second email.
+    That one will inform you that your rating has gone up, and you'll now be able to do some more dangerous/profitable work.
+  - You should now go to the Uplink Internal Services System and look through the work available to you.
+  - |
+    This is the end of this tutorial.
+    In the next parts, you will learn to use the connection manager,
+    and you'll learn how to start making money as an Uplink agent.
+
+ConnectionManagerContent:
+  - |
+    Welcome in this section of the tutorial.
+    The goal here is to learn to use a tool that will speed up bounces setup.
+    Hopefully you have finished the Test mission and already know about bouncing.
+  - Click on the connection manager...
+  - This interface is split between a big main screen, and a side dialler on the right.
+  - The dialler allows you to connect manually to a location. You can type in any IP of your choice.
+  - Typically, you will rarely need to dial a system manually. There may be some instances however where doing so is required.
+  - |
+    On the main screen you can see two lists.
+    The links that your system is aware of are displayed on the left list.
+    The right list shows the bounce path that you might make. The top of this list is showing the end of the bounce.
+  - Using the filters and the yanking buttons between the lists, you can push all the links you want to your bounce path.
+  - |
+    If you wish to add or remove a singular link, you can do so by double-clicking on it.
+    The rest of the features are similar to that of the map.
+  - |
+    This is the end of this tutorial.
+    You now have the option to choose the charm of setting up a bounce through the map,
+    or the efficiency of the connection manager.
+
+WhatToDoNextContent:
+  - |
+    Welcome in this section of the tutorial.
+    Hopefully you've finished the Test mission.
+    This part will show you what to do next.
+  - |
+    The Uplink Internal Services system is the place where you will find all of your future work.
+    Connect there now.
+  - Log in with your username and password.
+  - |
+    Uplink maintains a list of available missions.
+    You can access this list by selecting 'Mission List' from the menu.
+  - You should see a few missions that are available now. If you don't see any available missions, you can accelerate time until some appear.
+  - You can use these buttons at the top of the screen to accelerate time until a mission becomes available.
+  - Each time you successfully complete a mission, you'll be paid and your Uplink rating will go up.
+  - |
+    As your rating goes up, more missions will appear.
+    Employers are more likely to offer more dangerous missions and more pay as your rating gets higher.
+  - In addition, your Neuromancer rating is affected by the types of missions you do. This rating is effectively a record of your moral values.
+  - You may find employees are unwilling to give you certain missions if your Neuromancer rating is too low.
+  - Each mission has to be completed under a certain time limit. If you don't respect the dead-line, the mission will fail.
+  - The time limit might be modified according to your choices. Asking all the money before doing the mission will shorten the time length allowed.
+  - Exit out from the Mission screen.
+  - Uplink Corporation maintains a large database of useful information on the subject of hacking and computer security.
+  - Select 'Help' from the menu.
+  - As you attempt more complex missions, you will undoubtedly run into more complex security systems.
+  - All of the information we have on these systems is kept in these help pages. If you get stuck, this is the place to look for data.
+  - You may learn that you need some new software or a hardware upgrade.
+  - |
+    This is not the only place where you can find help.
+    Uplink Laboratories also provide some useful tips on the newest security systems
+  - Exit out from the Help screen.
+  - Once you are working on the harder missions, you will find your current Gateway is too limiting.
+  - |
+    You may need faster CPU capabilities,
+    more memory capacity or bandwidth,
+    or more personal security.
+  - Select 'Gateway Market' from the menu.
+  - |
+    This screen shows all of the Gateways that you can buy from Uplink Corporation.
+    Currently you have the first one off the list.
+  - |
+    After a few missions you'll be able to afford to upgrade.
+    Your old Gateway is part-exchanged, so you can work up the list slowly.
+  - |
+    Uplink Corporation does not store any records on who is using which Gateway.
+    This means that your Gateway can be traced, but you are safe.
+  - If you are traced during a hack, we will be forced to seize your accounts and Gateway.
+  - This means you'll have to start from the bottom of the Gateway list again when you rejoin.
+  - |
+    Later gateways have room for your own Security.
+    You can install cameras and motion sensors which will give you early warning of trouble.
+  - |
+    If you destroy your gateway before it is seized, you can normally save your accounts and name.
+    However you will of course lose your Gateway.
+  - |
+    This is the end of this tutorial.
+    You should have a good idea of what to do next.
+    Uplink Corp. wishes you luck for the future.
+
+HUDExplanations:
+  Name: HUD Explanations
+  Description: The basics of your screen
+  Content: {{ HUDExplanationsContent }}
+TestMission:
+  Name: Test Mission
+  Description: Completing the first mission
+  Content: {{ TestMissionContent }}
+ConnectionManager:
+  Name: Connection Manager
+  Description: Make sense of this tool
+  Content: {{ ConnectionManagerContent }}
+WhatToDoNext:
+  Name: What to do next
+  Description: Working as an Agent
+  Content: {{ WhatToDoNextContent }}
+
+Title:
+  Text: Tutorial Daemon
+  Tip: The tutorial software
+
+Close:
+  Tip: Close the tutorial software
+
+Skip:
+  Text: Skip
+  Tip: Click to go on to the next stage
+
+Access:
+  Tip: Run this tutorial
+
+TutorialText:
+  Text: Starting...
+
+Next:
+  Text: Next
+  Tip: The tutorial software
