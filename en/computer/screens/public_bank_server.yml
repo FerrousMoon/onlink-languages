@@ -19,9 +19,9 @@ AccountCreated:
 AccountMenu:
   Subtitle: Manage Existing Account
   AttachScreens:
-  - ID: ReturnToMainMenu
-    Text: {{ generic_done }}
-    Tip: Return to the main menu
+    - ID: ReturnToMainMenu
+      Text: {{ generic_done }}
+      Tip: Return to the main menu
 
 BankStatement:
   Menu: View Statement
@@ -56,8 +56,8 @@ CloseAccount:
     Text: {{ generic_close }}
     Tip: Close your account
   PreviousScreen:
-  Text: {{ generic_cancel }}
-  Tip: Do not close the account
+    Text: {{ generic_cancel }}
+    Tip: Do not close the account
 
 AccountClosed:
   Subtitle: Account closed
@@ -76,9 +76,9 @@ AdminPassword:
 AdminMenu:
   Subtitle: Manage Existing Account
   AttachScreens:
-  - ID: ReturnToMainMenu
-    Text: Main Menu
-    Tip: Return to the main menu
+    - ID: ReturnToMainMenu
+      Text: Main Menu
+      Tip: Return to the main menu
 
 Records:
   Menu: View All Accounts

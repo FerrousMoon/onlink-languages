@@ -42,7 +42,7 @@ QBit:
         There are, however, many limits to these modems, mostly due to regulations put in place to prevent massive interference. We are now reaching a technological epoch where the demand for information is exceeding what we are currently able to transmit. With this in mind, the q-Bit protocol was formed.
     
     - Subtitle: Viewing qBit Informational Material - qBit Fundamentals
-      NextPage: Calculation
+      NextScreen: Calculation
       Text: |
         q-Bits in their most basic form act much like any other bits; 1 and 0. However, q-Bits are not energy pulses, but rather subatomic particles with a spin; that is to say, they spin.
         

@@ -3,7 +3,7 @@
 
 MainMenu:
   Subtitle: Central Mainframe Main Menu
-  Access:
+  AttachScreens:
     - ID: VPNKey
       Text: VPN Session Key Server
       Tooltip: Generate a key for access to the corporate LAN
