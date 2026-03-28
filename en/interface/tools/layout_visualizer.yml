@@ -1,0 +1,29 @@
+---
+Title:
+  Text: Layout Visualizer
+  Tip: Click to move this application
+  
+Selection:
+  Text: Current Layout
+  Content: {{ misc_string }}
+  DefaultContent: Unknown UI
+  
+InfoTitle:
+  Text: Layouter Information
+
+NumLayouts:
+  Text: Number of layouts
+  Content: {{ misc_numeric }}
+  
+NumLayers:
+  Text: Number of layers
+  Content: {{ misc_numeric }}
+      
+ControlTitle:
+  Text: Controls
+
+LayoutIndexFilter:
+  Text: Select Layout Index
+  
+LayerIndexFilter:
+  Text: Select Layer Index
