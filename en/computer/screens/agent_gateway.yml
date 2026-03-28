@@ -1,5 +1,5 @@
 ---
-{!Include ../../../common.yml !}
+{!Include ../../common.yml !}
 
 MainTitle: {{ company_owner }}
 

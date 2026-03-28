@@ -1,0 +1,68 @@
+---
+TypeInfo: types.yml
+
+Unknown: commonButtons.yml
+
+MainMenu: mainmenu/main_menu.yml
+MessageBoxContent: message_box.yml
+Shortcuts: shortcut.yml
+UserIDBox: userid.yml
+
+LayoutVisualizer: tools/layout_visualizer.yml
+LayoutVisualizer_Filter: tools/layout_visualizer_filter.yml
+
+FirstLoad: mainmenu/first_time_loading.yml
+Login: mainmenu/login.yml
+FirstOptionSelection: mainmenu/options.yml
+Options: mainmenu/options.yml
+OptionsGame: mainmenu/options.yml
+OptionsGraphic: mainmenu/options.yml
+OptionsAudio: mainmenu/options.yml
+OptionsTheme: mainmenu/options.yml
+
+Admin: localInterface/admin.yml
+Analyser: localInterface/analyser.yml
+Dialer: localInterface/connection.yml
+EventQueue: localInterface/eventQueue.yml
+HUD: localInterface/hud.yml
+Inbox: localInterface/inbox.yml
+KeyMapper: localInterface/keymapper.yml
+LAN: localInterface/lanview.yml
+Links: localInterface/links.yml
+Sound: localInterface/sound.yml
+Task: localInterface/tasks.yml
+Terminal: localInterface/terminal.yml
+
+Account: remoteInterface/accountInfo.yml
+BulletinBoard: remoteInterface/bulletinBoard.yml
+CompanyInfo: remoteInterface/companyInfo.yml
+Console: ../computer/console.yml
+Contact: remoteInterface/contactEmployer.yml
+PlayerMessage: remoteInterface/playerMessage.yml
+HWSales: remoteInterface/hardwareSales.yml
+LockControl: remoteInterface/lanlockcontrol.yml
+Loans: remoteInterface/loanInfo.yml
+Menu: remoteInterface/menu.yml
+Message: remoteInterface/message.yml
+MoneyTransfer: remoteInterface/moneyTransfer.yml
+NuclearWar: remoteInterface/nuclearWar.yml
+Password: remoteInterface/password.yml
+PlotAgentEmail: remoteInterface/plotAgentEmail.yml
+Protovision: remoteInterface/protovision.yml
+SharesList: remoteInterface/stockMarketList.yml
+SharesView: remoteInterface/stockMarketView.yml
+SWSales: remoteInterface/softwareSales.yml
+SocialSecurity: remoteInterface/socialRecord.yml
+Record: remoteInterface/recordGeneric.yml
+UserID: remoteInterface/userPassword.yml
+VoiceAnalysis: remoteInterface/voiceAuth.yml
+VoicePhone: remoteInterface/voicePhone.yml
+VSEC: remoteInterface/vsec.yml
+
+SearchBox: remoteInterface/searchRecord.yml
+
+TaskVoiceAnalyser: task/voice_analyser.yml
+TaskTutorial: task/tutorial.yml
+
+
+SecuritySystem: other/security_system.yml

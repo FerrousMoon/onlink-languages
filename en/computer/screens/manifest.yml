@@ -1,0 +1,81 @@
+---
+Common: commonScreens.yml
+
+Terminal: terminal.yml
+PublicAccess: public_access.yml
+NetworkAccess: network_access.yml
+PublicSales: public_sales.yml
+PublicBank: public_bank_server.yml
+EmptyFileServer: empty_file_server.yml
+EBS: ebs.yml
+NameServer: name_server.yml
+PrimaryServer: primary_server.yml
+MainFrame: mainframe.yml
+CorporateGateway: corporate_gateway.yml
+LiftingServer: lifting_server.yml
+ACLServer: acl_server.yml
+
+PersonalComputer: personal_computer.yml
+AgentGateway: agent_gateway.yml
+PlayerGateway: player_gateway.yml
+
+UplinkCredits: uplink_credits.yml
+OnlinkCredits: onlink_credits.yml
+
+Protovision:  protovision.yml
+SteveJackson: steve_jackson.yml
+OCP: ocp.yml
+FreeSoftware: free_software.yml
+
+PhoneExchange: phone_exchange.yml
+PhoneSystem: phone_system.yml
+
+UplinkPublic: uplink_public.yml
+GatewayLost: uplink_public_gateway_lost.yml
+
+UplinkTest: uplink_test.yml
+UplinkInternal: uplink_internal.yml
+UplinkHelp: uplink_help.yml
+UplinkHelpGettingStarted: uplink_help/getting_started.yml
+UplinkHelpConnections: uplink_help/connections.yml
+UplinkHelpGateways: uplink_help/gateways.yml
+UplinkHelpSecurity: uplink_help/security.yml
+
+DatabaseSocial: database_generic.yml
+DatabaseAcademic: database_generic.yml
+DatabaseCriminal: database_criminal.yml
+DatabaseTelephone: database_phone.yml
+DatabaseMedical: database_medical.yml
+StockMarket: stock_market.yml
+Introversion: introversion.yml
+InterNIC: internic.yml
+
+UplinkLabsSales: uplinklabs_research.yml
+UplinkLabs_NetworkInformation: uplinkLabs_help/network.yml
+UplinkLabs_ComputerSystems: uplinkLabs_help/computer.yml
+UplinkLabs_SecuritySystems: uplinkLabs_help/security.yml
+UplinkLabs_HardwareInformation: uplinkLabs_help/hardware.yml
+UplinkLabs_HUDAndSoftware: uplinkLabs_help/software.yml
+
+Miah_PersonalComputer: miah_personal_computer.yml
+Steven_PersonalComputer: steven_personal_computer.yml
+Marie_PersonalComputer: marie_personal_computer.yml
+Vasilis_PersonalComputer: vasilis_personal_computer.yml
+
+Andromeda: andromeda.yml
+PlotAgentPC: plot_agent_pc.yml
+PlotAgentPCDead: plot_agent_pc_dead.yml
+
+LANRouter: lan/router.yml
+LANHub: lan/hub.yml
+LANTerminal: lan/terminal.yml
+LANLock: lan/lock.yml
+LANAuthServer: lan/authserver.yml
+LANMainServer: lan/mainserver.yml
+LANLogServer: lan/logserver.yml
+LANIsolationBridge: lan/isolationbridge.yml
+LANModem: lan/modem.yml
+LANSessionKeyServer: lan/sessionkeyserver.yml
+LANWirelessTransmitter: lan/wirelesstransmitter.yml
+LANWirelessReceiver: lan/wirelessreceiver.yml
+LANFaxPrinter: lan/faxprinter.yml

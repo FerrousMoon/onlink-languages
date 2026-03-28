@@ -15,10 +15,8 @@ RemoteHost:
 RemoteHostIcon:
     Tooltip: Shows the remote computer target
 
-SecSystem:
+SecSystemUI:
     Text: Analysing
-
-SecSystemIcon:
     Tooltip: Shows a security system
 
 PleaseWait: Analysing

@@ -1,0 +1,31 @@
+---
+ARCUnusualHiring: plot/main/act1scene2.yml
+UplinkAgentRaisesDoubt: plot/main/act1scene3.yml
+TopUplinkAgentReassures: plot/main/act1scene4.yml
+TopUplinkAgentFoundDead: plot/main/act1scene5.yml
+UplinkWarnsAgainstARC: plot/main/act1scene8.yml
+ArunmorFirstStrikeByRevelation: plot/main/act3scene1arc.yml
+ArunmorRevelationNearMiss: plot/main/act3scene1arunmor.yml
+ArunmorFirstResponse: plot/main/act3scene2.yml
+UplinkFaithService: plot/main/act3scene2uplinkservice.yml
+RevelationDetailsARC: plot/main/act3scene3arc.yml
+RevelationDetailsArunmor: plot/main/act3scene3arunmor.yml
+GovernmentFirstResponse: plot/main/act3scene4.yml
+ARCISMHacked: plot/main/act4scene4.yml
+ARCCEOArrested: plot/main/act4scene5.yml
+ARCLANHacked: plot/main/act4scene6.yml
+DarwinStolen: plot/main/act4scene10.yml
+ArunmorFraud: plot/main/act4scene11.yml
+ArunmorLANAttacked: plot/main/act4scene12.yml
+RevelationLauchSpeculation: plot/main/act5scene1.yml
+RevelationTwarted: plot/main/act5scene3.yml
+RevelationAftermath: plot/main/act5scene4.yml
+AndromedaLeaderPressRelease: plot/main/act6scene1.yml
+AndromedaLeaderJailed: plot/main/act6scene2.yml
+Epilogue: plot/main/act6scene3.yml
+
+Introduction: plot/aside/introduction.yml
+
+DarwiniaDestroyed: special/darwinia.yml
+DefconScare: special/defcon.yml
+UplinkAgentsDying: special/mole.yml

@@ -1,5 +1,5 @@
 ---
-{!Include ../../../common.yml !}
+{!Include ../../common.yml !}
 
 AboutUs:
   Subtitle: About us

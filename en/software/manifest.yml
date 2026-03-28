@@ -1,0 +1,91 @@
+---
+Common: software/common.yml
+
+ProxyBypass   : uplink/proxy_bypass.yml
+FirewallBypass: uplink/firewall_bypass.yml
+MonitorBypass : uplink/monitor_bypass.yml
+LimiterBypass : onlink/limiter_bypass.yml
+E2EEBypass    : onlink/e2ee_bypass.yml
+SentryBypass  : onlink/sentry_bypass.yml
+
+ProxyDisable   : uplink/proxy_disable.yml
+FirewallDisable: uplink/firewall_disable.yml
+LimiterDisable : onlink/limiter_disable.yml
+E2EEDisable    : onlink/e2ee_disable.yml
+SentryDisable  : onlink/sentry_disable.yml
+
+LimiterKiller: uplinklabs/limiter_killer.yml
+E2EEKiller: uplinklabs/e2ee_killer.yml
+FirewallKiller: uplinklabs/firewall_killer.yml
+ProxyKiller: uplinklabs/proxy_killer.yml
+SentryKiller: uplinklabs/sentry_killer.yml
+
+Decypher: uplink/decypher.yml
+Decypher_v4: uplinklabs/unused/decypher.yml
+
+Defrag: generic/defrag.yml
+
+DictionaryHacker: uplink/dictionary_hacker.yml
+
+FileCopier: generic/file_copier.yml
+FileCopier_Onlink: onlink/file_copier.yml
+
+FileDeleter: generic/file_deleter.yml
+
+FileCompressor: generic/compressor.yml
+FileDecompressor: generic/decompressor.yml
+FileBinaryCompressor: uplinklabs/binary_packer.yml
+FileCatalogue: uplinklabs/file_catalogue.yml
+FileEncrypter: generic/encrypter.yml
+FileDecrypter: uplink/decrypter.yml
+
+HUD_ConnectionAnalyser: uplink/hud_connection_analyser.yml
+HUD_IRCClient: generic/hud_irc_client.yml
+HUD_LANView: uplink/hud_lan_view.yml
+HUD_DevelopmentSuite: uplinklabs/unused/development_suite.yml
+HUD_ServiceInjector: uplinklabs/service_injector.yml
+
+IPLookup: generic/ip_lookup.yml
+IPProbe: uplink/ip_probe.yml
+
+LANProbe: uplink/lan_probe.yml
+LANScan: uplink/lan_scan.yml
+LANSpoof: uplink/lan_spoof.yml
+LANForce: uplink/lan_force.yml
+
+LogDeleter: uplink/log_deleter.yml
+LogModifier: uplink/log_modifier.yml
+LogUnDeleter: uplink/log_undeleter.yml
+
+PasswordBreaker: uplink/password_breaker.yml
+
+TraceTracker: uplink/trace_tracker.yml
+Denial: uplinklabs/denial.yml
+
+VoiceAnalyser: uplink/voice_analyser.yml
+VoiceAnalyser_Onlink: onlink/voice_analyser.yml
+
+SYS_MapShowsTrace: uplink/hud_map_show_trace.yml
+SYS_NanoDriver: onlink/sys_nano_driver.yml
+SYS_HyperDriver: onlink/sys_hyper_driver.yml
+SYS_VDPINView: onlink/sys_vdpin_view.yml
+SYS_NetworkStack: uplinklabs/sys_network_stack.yml
+SYS_ChaosLibrary: uplinklabs/sys_chaos_library.yml
+SYS_ZFS: uplinklabs/sys_zfs.yml
+SYS_MasterKey: uplinklabs/unused/sys_master_key.yml
+
+InstallerConnectionAnalyser: onlink/installer_connection_analyser.yml
+InstallerLANView: onlink/installer_lan_view.yml
+
+ServiceAdmin: uplinklabs/service_admin.yml
+ServiceAuth: uplinklabs/service_auth.yml
+ServiceCommon: uplinklabs/service_common.yml
+ServiceConsole: uplinklabs/service_console.yml
+
+LANAgent: uplinklabs/lan_agent.yml
+LANBridge: uplinklabs/lan_bridge.yml
+LANSpike: uplinklabs/lan_spike.yml
+
+VDPINCracker: uplinklabs/vdpin_cracker.yml
+
+InstallerServiceInjector: uplinklabs/installer_service_injector.yml

@@ -1,5 +1,5 @@
 ---
-{!Include ../../../common.yml !}
+{!Include ../../common.yml !}
 
 MainTitle: {{ owner_name }}
 NextScreen: {{ generic_next }}

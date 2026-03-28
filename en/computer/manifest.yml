@@ -1,0 +1,8 @@
+---
+ExecutableFileTypes: executable_file_types.yml
+Concepts: concepts.yml
+Security: security.yml
+GatewayUsage: gatewayUsage.yml
+NameGeneration: names.yml
+LanSystems: lan_systems.yml
+Screens: {!import screens/manifest.yml !}

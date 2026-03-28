@@ -1,0 +1,39 @@
+---
+DeliveryFailure: flat/mail_failure.yml
+GatewayUpgrade: flat/gatewayUpgrade.yml
+AuxGateway: flat/auxGateway.yml
+CaughtHacking: flat/caught.yml
+AnalyserPrompt: flat/analyserPrompt.yml
+NewAgent: agent/newAgent.yml
+License: payload/license.yml
+PackageRevelation: payload/package_revelation.yml
+PackageTracker: payload/package_tracker.yml
+Darwinia: flat/darwinia.yml
+
+UplinkRankUp: agent/uplinkRankUp.yml
+UplinkRankDown: agent/uplinkRankDown.yml
+NeuroUp: agent/neuroChangeGood.yml
+NeuroDown: agent/neuroChangeBad.yml
+
+AgentWarning: mainPlot/agent_warning.yml
+ARCIntro: mainPlot/arc_intro.yml
+ARCOffer: mainPlot/arc_offer.yml
+ARCBackfire: mainPlot/arc_backfire.yml
+ARCMaidenFlight: mainPlot/arc_maidenFlight.yml
+ARCDarwin: mainPlot/arc_darwin.yml
+ARCSaveItForTheJury: mainPlot/arc_saveItForTheJury.yml
+ARCShinyHammer: mainPlot/arc_shinyHammer.yml
+ARCBusted: mainPlot/arc_busted.yml
+ArunmorIntro: mainPlot/arunmor_intro.yml
+ArunmorBackfire: mainPlot/arunmor_backfire.yml
+ArunmorTracer: mainPlot/arunmor_tracer.yml
+ArunmorTakeMeToYourLeader: mainPlot/arunmor_takeMeToYourLeader.yml
+ArunmorInfiltration: mainPlot/arunmor_infiltration.yml
+ArunmorUpdate: mainPlot/arunmor_update.yml
+ArunmorFaithInChaos: mainPlot/arunmor_faithinchaos.yml
+
+AsideTributeToMusana: asidePlot/tribute_to_musana.yml
+AsideCollectNagicore: asidePlot/nagicore_collect.yml
+AsideUsagiInvestigation: asidePlot/usagi_investigation.yml
+
+SecurityUpdate: security.yml

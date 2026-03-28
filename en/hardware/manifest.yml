@@ -1,0 +1,30 @@
+---
+CPU:
+  Default: cpu.yml
+  Async: uplinklabs/async_cpu.yml
+
+Modem:
+  Default: modem.yml
+  QBit: uplinklabs/qbit_modem.yml
+
+RAM: ram.yml
+Memory: memory.yml
+
+Security:
+  MotionSensor: uplink/motion_sensor.yml
+  SelfDestruct: uplink/self_destruct.yml
+  WirelessRouter: onlink/wireless_router.yml
+
+Cooler:
+  Fan       : onlink/high_velocity_cpu_fan.yml
+  Water     : onlink/water_cooling_system.yml
+  Immersion : uplinklabs/processor_immersion_system.yml
+  Nitrogen  : uplinklabs/liquid_nitrogen_cooling_system.yml
+  FrozenHell: uplinklabs/frozen_hell_cooling_system.yml
+
+Upgrade:
+  VirtualCoProcessor: onlink/virtual_coprocessor.yml
+  SatelliteReceiver : onlink/satellite_receiver.yml
+  QBitReceiver      : uplinklabs/q_bit_receiver.yml
+  LiquidNitrogen    : uplinklabs/liquid_nitrogen_manager.yml
+  IceKami           : uplinklabs/ice_kami.yml
