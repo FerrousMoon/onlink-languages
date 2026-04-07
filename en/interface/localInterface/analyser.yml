@@ -1,27 +1,31 @@
 ---
 Title:
-    Text: CONNECTION ANALYSER
-    Tooltip: Remove this screen
+  Text: CONNECTION ANALYSER
+  Tip: Remove this screen
 
 LocalHost:
-    Text: Localhost
-
-LocalHostIcon:
-    Tooltip: Shows your home computer
+  Text: Localhost
+  Tip: This is your home computer
 
 RemoteHost:
-    Text: Remote Host
+  Text: Remote Host
+  Tip: This is the remote computer target
 
-RemoteHostIcon:
-    Tooltip: Shows the remote computer target
+Cheat:
+  Text: "#"
+  Tip: Bypass Security
 
 SecSystemUI:
-    Text: Analysing
-    Tooltip: Shows a security system
+  Text: Analysing
+  Tip: Shows a security system
 
 PleaseWait: Analysing
-RunningGateway: Default Gateway Detectedso bear that in mind
-RunningEBS: Link to Backup Server Detected
-UnknownFilesystem: WARNING: Unfamiliar Filesystem
 
+RemoteHostStatus:
+  Text: |
+    {{ computer_name }}
 
+    {% if has_gateway %} Default Gateway Detected
+    {% elif has_backup %} Link to Backup Server Detected
+    {% elif has_stone_wall || has_audit %} WARNING: Unfamiliar Filesystem
+    {% endif %}
