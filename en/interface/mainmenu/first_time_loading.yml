@@ -16,15 +16,14 @@ Connection:
     Description: {{ LocalHost }}
   
   RemoteHost:
-    Title:
-      Gateway: {{ Gateway }}
+    GatewayTitle: {{ Gateway }}
     
 
 Download:
   Title: Downloading UPLINK Operating System...
   
   Progress:
-    Tooltip: Shows the progress of the download
+    Tip: Shows the progress of the download
     Steps:
       - Downloading Core services
       - Downloading Kernel
