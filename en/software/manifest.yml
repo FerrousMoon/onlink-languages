@@ -1,5 +1,5 @@
 ---
-Common: software/common.yml
+Common: common.yml
 
 ProxyBypass   : uplink/proxy_bypass.yml
 FirewallBypass: uplink/firewall_bypass.yml

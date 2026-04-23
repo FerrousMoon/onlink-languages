@@ -34,3 +34,30 @@ ColourBlindTypes:
   Full:
     Text: Full
     Tip: Select this mode.
+
+ScreenModes:
+  Windowed:
+    Text: Windowed
+    Tip: Run the game in a window.
+  
+  FullScreen:
+    Text: Full Screen
+    Tip: Run the game in full screen mode.
+  
+  DesktopFullScreen:
+    Text: Borderless
+    Tip: Run the game in a borderless full screen window.
+
+VSync:
+  Disabled:
+    Text: Disable
+    Tip: Disable VSync
+
+  Enabled:
+    Text: Enable
+    Tip: Enable VSync
+    
+  Adaptive:
+    Text: Adaptive
+    Tip: Adaptive VSync
+

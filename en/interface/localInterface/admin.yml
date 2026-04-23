@@ -14,13 +14,12 @@ Console:
   Tip: View the console
 
 Tabs:
-  Items:
-    RAMManagement:
-      Text: RAM
-      Tip: Manage your RAM usage
-    GatewayManagement:
-      Text: Gateways
-      Tip: Manage your gateways
+  RAMManagement:
+    Text: RAM
+    Tip: Manage your RAM usage
+  GatewayManagement:
+    Text: Gateways
+    Tip: Manage your gateways
 
 HUDTitle: Head Up Display
 SystemTitle: System

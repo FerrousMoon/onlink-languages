@@ -341,19 +341,19 @@ WhatToDoNextContent:
 HUDExplanations:
   Name: HUD Explanations
   Description: The basics of your screen
-  Content: {{ HUDExplanationsContent }}
+  Content: HUDExplanationsContent
 TestMission:
   Name: Test Mission
   Description: Completing the first mission
-  Content: {{ TestMissionContent }}
+  Content: TestMissionContent
 ConnectionManager:
   Name: Connection Manager
   Description: Make sense of this tool
-  Content: {{ ConnectionManagerContent }}
+  Content: ConnectionManagerContent
 WhatToDoNext:
   Name: What to do next
   Description: Working as an Agent
-  Content: {{ WhatToDoNextContent }}
+  Content: WhatToDoNextContent
 
 Title:
   Text: Tutorial Daemon

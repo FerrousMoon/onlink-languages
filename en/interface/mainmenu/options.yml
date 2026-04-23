@@ -56,18 +56,6 @@ Renderer:
 ScreenMode:
   Text: Screen Mode
   Tip: Select your desired screen resolution.
-  Items:
-    Windowed:
-      Text: Windowed
-      Tip: Run the game in a window.
-
-    FullScreen:
-      Text: Full Screen
-      ooltip: Run the game in full screen mode.
-    
-    Borderless:
-      Text: Borderless
-      Tip: Run the game in a borderless full screen window.
 
 Resolution:
   Text: Resolution
@@ -88,18 +76,6 @@ RefreshRate:
 VSync:
   Text: VSync
   Tip: Select the vertical Synchronization mode.
-  Items:
-    Disable:
-      Text: Disable
-      Tip: Disable VSync
-
-    Enable:
-      Text: Enable
-      Tip: Enable VSync
-    
-    Adaptive:
-      Text: Adaptive
-      Tip: Adaptive VSync
 
 # Gameplay
 

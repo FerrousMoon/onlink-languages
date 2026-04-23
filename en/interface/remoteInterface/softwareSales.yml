@@ -1,15 +1,14 @@
 ---
-Tabs:
-  Items:
-    Owned:
-      Text: Owned
-      Tip: Click to show owned software
-    Software:
-      Text: Software
-      Tip: Click to show new software
-    Upgrades:
-      Text: Upgrades
-      Tip: Click to show new upgrades
+TabType:
+  Owned:
+    Text: Owned
+    Tip: Click to show owned software
+  Software:
+    Text: Software
+    Tip: Click to show new software
+  Upgrades:
+    Text: Upgrades
+    Tip: Click to show new upgrades
 
 NameColumn:
   Text: Name
@@ -58,6 +57,9 @@ DownloadAll:
 MaxVersion:
   Text: Max Version
   Tip: Jump to the last version
+
+Details:
+  Text: Software Description
 
 OwnedPrice: Owned
 

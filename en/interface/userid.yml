@@ -3,8 +3,8 @@ Title: User authorisation required
 
 User:
   Text: Name
-  Tooltip: Enter your userID here
+  Tip: Enter your userID here
 
 Password:
   Text: Code
-  Tooltip: Enter your access code here
+  Tip: Enter your access code here

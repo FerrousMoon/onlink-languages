@@ -26,25 +26,26 @@ HardwareMenu:
   UpgradeList: Display upgrades list
   Background: No Hardware Available
 
-Deselect: Deselect
+Deselect:
+  Text: Deselect
 
 Cancel:
   Text: {{ generic_cancel }}
-  Tooltip: Click to exit this menu
+  Tip: Click to exit this menu
     
 CompleteOrder:
   Text: Complete order
-  Tooltip: Click to finalize your purchase
+  Tip: Click to finalize your purchase
 
 ClearOrder:
   Text: Clear order
-  Tooltip: Click to remove all planned changes
+  Tip: Click to remove all planned changes
   
 PaymentDescription: "{{ company_name }} hardware sale: {{ hardware_name }}"
 
 Replace:
   Text: Replace
-  Tooltip: Click to replace a component. A refund will be transferred after maintenance completion.
+  Tip: Click to replace a component. A refund will be transferred after maintenance completion.
   
 ReplaceInfo:
   NoReplacementNeeded: No replacement needed
@@ -55,13 +56,13 @@ ReplaceInfo:
 
 Add:
   Text: Add
-  Tooltip: Click to add a component to the order
+  Tip: Click to add a component to the order
 
 AddInfo:
   Added: Added to order
   NoSatelliteReceiver: Your Gateway lacks the Satellite Receiver required for this upgrade.
   NoQBitReceiver: Your Gateway lacks the q-Bit Receiver required for this upgrade.
-  NoEnoughBandwidth: Your gateway does not have sufficient bandwidth to run a modem of this speed.
+  NotEnoughBandwidth: Your gateway does not have sufficient bandwidth to run a modem of this speed.
   NanoPatchMissing: All nano-driven CPUs require a {{ misc_numeric }} Gq patch found in software upgrades.
   HyperPatchMissing: This CPU requires a {{ misc_numeric }} Gq patch to boot.sys in order to prevent it from overheating.
   PatchMissingSource: {{ patch_info }} You can find it in software upgrades.
@@ -73,7 +74,7 @@ AddInfo:
 
 Remove:
   Text: Remove
-  Tooltip: Click to sell this component when the order is complete
+  Tip: Click to sell this component when the order is complete
 
 RemoveInfo:
   RemoveCooler: Remove cooler first
