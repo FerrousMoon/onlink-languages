@@ -1,14 +1,10 @@
 ---
 Description: >
-    {% if mission_type == AnyHacking %}
-    frame_user/hacking.yml
-    {% elif mission_type == DataDestruction %}
-    frame_user/destruction.yml
-    {% elif mission_type == FinancialFraud %}
-    frame_user/financial.yml
-    {% else %}
-    {% abort %}
-    {% endif %}
+  {% if mission_type == AnyHacking %}        frame_user/hacking.yml
+  {% elif mission_type == DataDestruction %} frame_user/destruction.yml
+  {% elif mission_type == FinancialFraud %}  frame_user/financial.yml
+  {% else %} {% abort %}
+  {% endif %}
 
 WhoIsTheTarget: Someone we don't like very much
 WhySoMuchMoney: The employer and friends may come after you.

@@ -1,0 +1,39 @@
+---
+None: common.yml
+FileStealSingle: uplink/steal_single.yml
+FileDeleteSingle: uplink/delete_single.yml
+FileStealBulk: uplink/steal_multiple.yml
+FileDeleteBulk: uplink/delete_multiple.yml
+RecordFindPersonalComputer: uplink/record_find_pc.yml
+RecordFindBankInfo: uplink/bank_info.yml
+RecordModifyAcademic: uplink/data_change.yml
+RecordModifyCriminal: uplink/data_change.yml
+RecordModifySocial: uplink/data_change.yml
+PersonFrame: uplink/frame_user.yml
+PersonTrace: uplink/trace_hack.yml
+PersonTraceBankTransfer: uplink/trace_transfer.yml
+BankAccountTransfer: uplink/bank_transfer.yml
+ComputerDelete: uplink/computer_destroy.yml
+PersonImprison: uplink/remove_person.yml
+RunProcess: uplink/run_process.yml
+
+BankAccountClose: uplink/bank_account_delete.yml
+DataGenerateVoice: uplink/generate_voice.yml
+LogUndelete: uplink/restore_log.yml
+RecordModifyDNS: uplink/data_change.yml
+FinePay: special/pay_fine.yml
+PersonExonerate: uplink/exonerate_person.yml
+
+MaidenFlight: mainPlot/arc_maidenFlight.yml
+Darwin: mainPlot/arc_darwin.yml
+SaveItForTheJury: mainPlot/arc_saveItForTheJury.yml
+ShinyHammer: mainPlot/arc_shinyHammer.yml
+GrandTour: mainPlot/arc_grandTour.yml
+
+Tracer: mainPlot/arunmor_tracer.yml
+TakeMeToYourLeader: mainPlot/arunmor_takeMeToYourLeader.yml
+ARCInfiltration: mainPlot/arunmor_infiltration.yml
+CounterAttack:  mainPlot/arunmor_counterattack.yml
+
+Mole: special/uplink_mole.yml
+Tutorial: special/test_mission.yml

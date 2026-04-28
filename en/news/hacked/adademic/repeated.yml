@@ -1,30 +1,27 @@
-# Headline
-- Select:
+Subject:
     - Government embarrassed over repeated security failures
     - International Academic Database hacked again
     - Federal Agents investigate Academic Database hacks
 
-# Paragraph 1 options
-- Select:
+Body:
+  Intro:
     - The Government Academic Database has been hacked again by an unknown intruder.
     - Hackers have again penetrated the International Academic Database.
     - The International Academic Database has been attacked by hackers again.
 
-# Paragraph 2 options
-- Select:
+  Part2:
     - Security on this computer has been bypassed repeatedly in the last month.
     - This attack is the latest in a string of hacks performed in the last month.
     - Federal agents seem unable to stop a torrent of recent hacks on this system.
 
-# Etc
-- Text: This occurred on {{date_time}}.
+  Occurred: This occurred on {{date_time}}.
 
-- Select:
+  Part4:
     - The system is used to store the Academic history of millions of people.
     - In theory a skilled hacker could create new qualifications for any person he wished.
     - The exact motives of the hackers are not clear, but it is believed they may be running some kind of business offering new qualifications for people for a price.
 
-- Select:
+  Outro:
     - The Government has again promised to put a stop to these hacks quickly.
     - The Government seems to be at a loss as to what to do about these recent attacks.
     - Federal Agents from the computer crimes division where today tasked with catching the criminals involved and determining what damage has been done.

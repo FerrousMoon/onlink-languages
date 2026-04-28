@@ -1,30 +1,27 @@
-# Headline
-- Select:
+Subject:
     - Government Social Security files accessed again
     - Social Security computer once again hacked
     - Government maintained Social Security documents come under attack again
 
-# Paragraph 1 options
-- Select:
+Body:
+  Intro:
     - Government social security documents have been accessed once again.
     - Government maintained Social Security documents have come under attack yet again.
     - The Government owned Social Security computer has once again been hacked by an unknown Cyber criminal.
 
-# Paragraph 2 options
-- Select:
+  Part2:
     - This system has been hacked multiple times in the last month, prompting heavy criticism from some opposition parties.
     - This is not the first time this has happened; this system has been tampered with more than once recently.
     - The Government is once again on the defensive as this system seems to be almost wide open to abuse.
 
-# Etc
-- Text: This occurred on {{date_time}}.
+  Occurred: This occurred on {{date_time}}.
 
-- Select:
+  Part4:
     - The system holds personal data on the general population, but could be maliciously used to create new identities or tamper with existing ones.
     - It is feared that the many recent hacks of this system may lead to a lack of trust in its data, which is used all over industry for many purposes.
     - In theory, a skilled hacker could manufacture a new identity, or tamper with an existing record to cause damage to a person's records.
 
-- Select:
+  Outro:
     - Government spokesmen today insisted they had the situation under control, despite recent history.
     - The government is said to be considering many options on how to stop these attacks.
     - Federal agents have been called in to help catch the criminals responsible for this action.

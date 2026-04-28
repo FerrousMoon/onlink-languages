@@ -2,42 +2,37 @@
 {!Include ../common.yml!}
 
 Description: >
-    {% if mission_type == Research %}
-    delete_multiple/research.yml
-    {% elif mission_type == Corporate %}
-    delete_multiple/corporate.yml
-    {% elif mission_type == Customer %}
-    delete_multiple/customer.yml
-    {% elif mission_type == Software %}
-    delete_multiple/software.yml
-    {% else %}
-    {% abort %}
-    {% endif %}
+  {% if mission_type == Research %}    delete_multiple/research.yml
+  {% elif mission_type == Corporate %} delete_multiple/corporate.yml
+  {% elif mission_type == Customer %}  delete_multiple/customer.yml
+  {% elif mission_type == Software %}  delete_multiple/software.yml
+  {% else %} {% abort %}
+  {% endif %}
 
 Details: |
-    {{ Details }}
+  {{ Details }}
     
-    {% if target_type & LAN %}
-    The data is stored on a LAN.
-    {% endif %}
+  {% if target_type & LAN %}
+  The data is stored on a LAN.
+  {% endif %}
 
 OnNotCompletedDetails: We have not heard word yet that the damage has been done.
 OnFailureDetails: |
-    A rather spectacular failure, agent. Not only did you fail to delete all of the backups, but you managed to prompt the company into storing all their current data off-site.
+  A rather spectacular failure, agent. Not only did you fail to delete all of the backups, but you managed to prompt the company into storing all their current data off-site.
     
-    {% if mission_payment_type == FullAtStart %}
-    Frankly, we expected more from an Agent of your supposed experience.
-    {% elif mission_payment_type == HalfAtStart %}
-    As such, we will not be making any additional payment.
-    {% elif mission_payment_type == NoneAtStart %}
-    As such, we will not be making payment of any kind.
-    {% endif %}
+  {% if mission_payment_type == FullAtStart %}
+  Frankly, we expected more from an Agent of your supposed experience.
+  {% elif mission_payment_type == HalfAtStart %}
+  As such, we will not be making any additional payment.
+  {% elif mission_payment_type == NoneAtStart %}
+  As such, we will not be making payment of any kind.
+  {% endif %}
 
 WhoIsTheTarget: The data is owned by {{ company_name }}
 WhySoMuchMoney: The data will be well protected.
 HowSecure: >
-    {% if target_type & LAN %}
-    The target is a LAN and will be well protected.
-    {% else %}
-    {{ HowSecure }}
-    {% endif %}
+  {% if target_type & LAN %}
+  The target is a LAN and will be well protected.
+  {% else %}
+  {{ HowSecure }}
+  {% endif %}

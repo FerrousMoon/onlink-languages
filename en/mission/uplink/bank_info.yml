@@ -1,16 +1,11 @@
 ---
 Description: >
-    {% if mission_type == AccountNumber %}
-    bank_info/accountNumber.yml
-    {% elif mission_type == BankBalance %}
-    bank_info/balance.yml
-    {% elif mission_type == LoanSize %}
-    bank_info/loan.yml
-    {% elif mission_type == TransferRecipient %}
-    bank_info/recipient.yml
-    {% else %}
-    {% abort %}
-    {% endif %}
+  {% if mission_type == AccountNumber %}       bank_info/accountNumber.yml
+  {% elif mission_type == BankBalance %}       bank_info/balance.yml
+  {% elif mission_type == LoanSize %}          bank_info/loan.yml
+  {% elif mission_type == TransferRecipient %} bank_info/recipient.yml
+  {% else %} {% abort %}
+  {% endif %}
 
 WhoIsTheTarget: No one you know.
 WhySoMuchMoney: The data is highly personal, and well protected.

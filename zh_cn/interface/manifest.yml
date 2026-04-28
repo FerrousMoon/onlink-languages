@@ -1,0 +1,7 @@
+---
+Login: mainmenu/login.yml
+Options: mainmenu/options.yml
+OptionsGame: mainmenu/options.yml
+OptionsGraphic: mainmenu/options.yml
+OptionsAudio: mainmenu/options.yml
+OptionsTheme: mainmenu/options.yml

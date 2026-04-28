@@ -25,16 +25,12 @@ ArcPlot:
   AndromedaLeaderJailed: plot/main/act6scene2.yml
   Epilogue: plot/main/act6scene3.yml
 
-AsidePlot:
-  Introduction: plot/aside/introduction.yml
-
 SpecialStories:
   DarwiniaDestroyed: special/darwinia.yml
   DefconScare: special/defcon.yml
   UplinkAgentsDying: special/mole.yml
 
 ComputerDDoSed: ddos.yml
-RevelationRun: revelationRun.yml
 
 Arrested:
   Civilian: arrest/civilian.yml

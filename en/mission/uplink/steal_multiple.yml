@@ -1,41 +1,36 @@
 ---
-{!Include ../common.yml!}
+{!Include ../common.yml !}
 
 Description: >
-    {% if mission_type == Research %}
-    steal_multiple/research.yml
-    {% elif mission_type == Corporate %}
-    steal_multiple/corporate.yml
-    {% elif mission_type == Customer %}
-    steal_multiple/customer.yml
-    {% elif mission_type == Software %}
-    steal_multiple/software.yml
-    {% else %}
-    {% abort %}
-    {% endif %}
+  {% if mission_type == Research %}    steal_multiple/research.yml
+  {% elif mission_type == Corporate %} steal_multiple/corporate.yml
+  {% elif mission_type == Customer %}  steal_multiple/customer.yml
+  {% elif mission_type == Software %}  steal_multiple/software.yml
+  {% else %} {% abort %}
+  {% endif %}
 
 Details: |
-    {{ Details }}
+  {{ Details }}
     
-    You will need around {{ misc_numeric }} GigaQuads of space.
-    {% if target_type & LAN %}
-    The data is stored on a LAN.
-    {% endif %}
+  You will need around {{ misc_numeric }} GigaQuads of space.
+  {% if target_type & LAN %}
+  The data is stored on a LAN.
+  {% endif %}
 
 OnNotCompletedDetails:
-    AllEncrypted: We can see some files on the fileserver but they appear to be encrypted. You need to decrypt them before we make payment.
-    Encrypted: You haven't recovered very much data and a lot of it is encrypted - please copy more and decrypt all of it.
-    AllCorrupt: We can see some files on the fileserver but they appear to be corrupted. You'll need to fix or redownload them before we make payment.
-    Corrupt: We can see some files on the fileserver but they appear to be corrupted. You'll need to fix or redownload them before we make payment.
-    NoFile: We can't find any of the files on the file server we specified.
-    NotEnoughFiles: You haven't copied very much of the data - we'll need more before we pay you.
+  AllEncrypted: We can see some files on the fileserver but they appear to be encrypted. You need to decrypt them before we make payment.
+  Encrypted: You haven't recovered very much data and a lot of it is encrypted - please copy more and decrypt all of it.
+  AllCorrupt: We can see some files on the fileserver but they appear to be corrupted. You'll need to fix or redownload them before we make payment.
+  Corrupt: We can see some files on the fileserver but they appear to be corrupted. You'll need to fix or redownload them before we make payment.
+  NoFile: We can't find any of the files on the file server we specified.
+  NotEnoughFiles: You haven't copied very much of the data - we'll need more before we pay you.
 
 OnFailure:
-    Subject: Your recent mission
-    Body: |
-        We've reviewed your recent mission to copy data files. It looks like you got most of the files but some are missing.
-        
-        As a result, we've decided to reduce your total payment to {{ mission_adjusted_payment }}c.
+  Subject: Your recent mission
+  Body: |
+    We've reviewed your recent mission to copy data files. It looks like you got most of the files but some are missing.
+      
+    As a result, we've decided to reduce your total payment to {{ mission_adjusted_payment }}c.
     
 WhoIsTheTarget: The data is owned by {{ company_name }}.
 WhySoMuchMoney: There will be a lot of data to copy.

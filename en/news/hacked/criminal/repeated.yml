@@ -1,30 +1,27 @@
-# Headline
-- Select:
+Subject:
     - Global Criminal Database smashed open again
     - Government criminal records system hacked yet again
     - Criminal Records modified by hackers again
 
-# Paragraph 1 options
-- Select:
+Body:
+  Intro:
     - The Government run Global Criminal Database has again been hacked wide open.
     - The Global Criminal Database has been successfully attacked once again.
     - Once again the Global Criminal Database has been hacked.
 
-# Paragraph 2 options
-- Select:
+  Part2:
     - Security at this server system has been compromised numerous times in the past month.
     - This news service has unfortunately lost count of the number of hacks at this site in recent times.
     - The system appears to have more security holes than popular 'Micro software' written in the late 20th century.
 
-# Etc
-- Text: This occurred on {{date_time}}.
+  Occurred: This occurred on {{date_time}}.
 
-- Select:
+  Part4:
     - It is believed an underground organisation is selling the service of modifying records.
     - Hackers could clear existing records or could have innocent people thrown in jail.
     - A number of cases have now arisen of people in prison who claim they were framed in this way.
 
-- Select:
+  Outro:
     - The Government appears to be unable to put a stop to these attacks.
     - The Government appear to be at a loss as to what to do.
     - The Government is now considering shutting down the Global Criminal Database until this can be resolved.

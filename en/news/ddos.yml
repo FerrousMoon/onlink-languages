@@ -1,20 +1,21 @@
 ---
-- Select:
+Subject:
     - Hackers take down major computer system
     - Large corporation stung by malicious hacker attack
     - Aggressive computer attacker leaves system crippled
 
-- Select:
+Body:
+  Intro:
     - {{company_name}} have taken a major blow to their operations today as a malicious computer hacker performed a distributed denial of service attack one of their key computer systems.
     - A distributed denial of service attack has targeted one of the primary computer systems of {{company_name}} and shut down the system.
     - Federal agents are now searching for the identity of a computer criminal who used a distributed denial of service attack on the {{company_name}}.
 
-- Select:
+  Part2:
     - It has been difficult to piece together exactly what happened, but it appears that a trojan program running on external servers was used to initiate the attack.
     - Industry experts have re-created the final moments of the system crash from the access logs. A few moments before the computer shut down, a large number of connections were made from external servers, flooding the system with requests.
     - A single hacker could be responsible for this high-tech crime. Moments before the failure a large volume of traffic flooded the machine from many external connections. The exact method has not yet been determined.
 
-- Select:
+  Outro:
     - Company executives today released a press statement, indicating they were investigating the incident and would be seeking outside assistance from industry professionals.
     - Federal agents have been brought in on the case and will no doubt be searching for the identity of the dangerous computer hacker responsible.
     - {{company_name}} have tightened security on their remaining computer systems, and federal agents from the government cyber-crimes division were seen entering the corporate headquarters today.

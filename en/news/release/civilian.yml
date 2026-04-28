@@ -1,10 +1,11 @@
-- Select:
+Subject:
     - Computer crime suspect released
     - Computer fraud suspect released
     - Federal agents release suspect
 
-- Text: The {[man|woman]} released, who has been named as {{person_name}}, had protested his innocence from the start, claiming {[he|she]} had no knowledge of Computers at all and could not have committed this crime.
+Body:
+  Intro: The {[man|woman]} released, who has been named as {{person_name}}, had protested his innocence from the start, claiming {[he|she]} had no knowledge of Computers at all and could not have committed this crime.
 
-- Select:
+  Outro:
     - The {[man|woman]} could have served several years in jail for this crime.
     - This case went to court and {[he|she]} could have faced some time in jail. Friends and family today celebrated the success of a campaign to prove his innocence, claiming that {[he|she]} does not have the knowledge or equipment necessary to complete the crimes {[he|she]} had been accused of.

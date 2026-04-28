@@ -1,23 +1,25 @@
+---
 # Files are intact or exist on backup system. System had been deleted but was recovered (e.g. by a lifter).
 # All in all, a poor show.
-- Select:
+Subject:
     - Hackers take down major computer system
     - Large corporation stung by malicious hacker attack
     - Aggressive computer attacker leaves system crippled
 
-- Select:
+Body:
+  Intro:
     - {{company_name}} have taken a major blow to their operations today as a malicious computer hacker penetrated one of their key computer systems and caused terminal damage.
     - A lone hacker has penetrated one of the primary computer systems of {{company_name}} and deliberately shut down the system.
     - Federal agents are now searching for the identity of a computer criminal who broke into the {{computer_name}} and deliberately destroyed the machine.
 
-- Select:
+  Part2:
     - It has been difficult to piece together exactly what happened, but it appears that a system wide failure of the computer system was caused by the hackers actions. Experts say the entire operating system will have to be replaced.
     - Industry experts have re-created the final moments of the system crash from access logs on another machine. A few moments before the computer shut down, a lone hacker forced his way into the system after bypassing the security, entered into administrative mode and deleted several key system files, causing the machine to malfunction.
     - A single hacker is responsible for this high-tech crime. Moments before the failure he hacked into the system and deliberately brought about its destruction. The exact method has not yet been determined.
 
-- Text: Extensive damage was done to the primary system, however, the company has been able to salvage all of the data via a backup systems and have taken steps to backup their data off-site.
+  Part3: Extensive damage was done to the primary system, however, the company has been able to salvage all of the data via a backup systems and have taken steps to backup their data off-site.
 
-- Select:
+  Outro:
     - Company executives today released a press statement, indicating they were investigating the incident and would be seeking outside assistance from industry professionals.
     - Federal agents have been brought in on the case and will no doubt be searching for the identity of this dangerous computer hacker.
     - {{company_name}} have tightened security on their remaining computer systems, and federal agents from the government cyber-crimes division were seen entering the corporate headquarters today.

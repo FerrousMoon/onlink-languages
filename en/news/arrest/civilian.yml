@@ -1,10 +1,11 @@
-- Select:
-    - Suspect arrested for Computer Crime
-    - Police arrest suspect in Computer fraud crime
-    - Federal agents arrest suspect in dawn raid
+Subject:
+  - Suspect arrested for Computer Crime
+  - Police arrest suspect in Computer fraud crime
+  - Federal agents arrest suspect in dawn raid
 
-- Text: The {[man|woman]} arrested, who has been named as {{person_name}}, has protested {[his|her]} innocence from the start, claiming {[he|she]} has no knowledge of Computers at all and could not have committed this crime.
+Body:
+  Intro: The {[man|woman]} arrested, who has been named as {{person_name}}, has protested {[his|her]} innocence from the start, claiming {[he|she]} has no knowledge of Computers at all and could not have committed this crime.
 
-- Select:
+  Outro:
     - This {[man|woman]} will face court in a few months time for these crimes and could serve several years in jail for this crime.
     - This case will go to court and {[he|she]} may face some time in jail. Friends and family today began a campaign to prove {[his|her]} innocence, claiming that {[he|she]} does not have the knowledge or equipment necessary to complete the crimes {[he|she]} is accused of.
