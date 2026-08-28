@@ -7,6 +7,7 @@ MainMenu: mainmenu/main_menu.yml
 MessageBoxContent: message_box.yml
 Shortcuts: shortcut.yml
 UserIDBox: userid.yml
+AudioDisplay: localInterface/sound.yml
 
 LayoutVisualizer: tools/layout_visualizer.yml
 LayoutVisualizer_Filter: tools/layout_visualizer_filter.yml
@@ -17,7 +18,6 @@ FirstOptionSelection: mainmenu/options.yml
 Options: mainmenu/options.yml
 OptionsGame: mainmenu/options.yml
 OptionsGraphic: mainmenu/options.yml
-OptionsAudio: mainmenu/options.yml
 OptionsTheme: mainmenu/options.yml
 
 Admin: localInterface/admin.yml
@@ -45,6 +45,7 @@ Loans: remoteInterface/loanInfo.yml
 Menu: remoteInterface/menu.yml
 Message: remoteInterface/message.yml
 MoneyTransfer: remoteInterface/moneyTransfer.yml
+News: remoteInterface/news.yml
 NuclearWar: remoteInterface/nuclearWar.yml
 Password: remoteInterface/password.yml
 PlotAgentEmail: remoteInterface/plotAgentEmail.yml

@@ -1,15 +1,15 @@
 ---
 Date:
-    Text: Date of Birth
-    ToolTip: This column shows the date the story was posted
+    Text: Date
+    Tip: This column shows the date the story was posted
 
 Subject:
     Text: Subject
-    ToolTip: This column shows the subject of the story
+    Tip: This column shows the subject of the story
 
 NewsLine:
-    ToolTip: Read this News story
+    Tip: Read this News story
 
 Exit:
     Text: Exit News
-    ToolTip: Close the News screen and return to the main menu
+    Tip: Close the News screen and return to the main menu

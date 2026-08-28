@@ -1,4 +1,6 @@
 ---
+{!include ../common.yml !}
+
 Subject: 
     - Find and destroy crucial data on a mainframe
     - Break into a rival computer system and sabotage files

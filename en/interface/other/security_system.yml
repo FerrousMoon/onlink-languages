@@ -1,4 +1,6 @@
 ---
 SecSystemUI:
     Text: Analysing
-    Tooltip: Shows a security system
+    Tip: Shows a security system
+
+Level: Lv {{ misc_numeric }}

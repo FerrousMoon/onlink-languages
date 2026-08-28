@@ -4,8 +4,8 @@
 Close:
   Text: Close
   Tooltip: Close the message box
-Yes: Yes
-No: No
+Yes: {{ generic_yes }}
+No: {{ generic_no }}
 
 # Main Menu
 RetireConfirm:
