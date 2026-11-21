@@ -1,14 +1,4 @@
 ---
 {!Include ../../common.yml !}
 
-PreviousPage:
-  Text: {{ generic_previous }}
-  Tip: Go to the previous page
-  
-NextPage:
-  Text: {{ generic_next }}
-  Tip: Go to the next page
-
 DefaultMenuTip: Access this screen
-Next: {% if has_next_page %} {{ generic_next }} {% else %} {{ generic_ok }} {% endif %}
-Return: {{ generic_return }}
